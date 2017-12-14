@@ -1,0 +1,1 @@
+[07-Nov-2015 11:51:23 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/eyeasso1/public_html/seetheclarity/wp-content/plugins/akismet/legacy.php on line 356

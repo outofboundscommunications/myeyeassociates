@@ -1,0 +1,718 @@
+0000.025 (0) Opened log file at time: Mon, 04 Dec 2017 20:17:02 +0000 on http://www.seetheclarity.com
+0000.028 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 3.9.2 PHP: 5.6.32 (cgi-fcgi, Linux box999.bluehost.com 3.10.0-614.10.2.lve1.4.50.el6h.x86_64 #1 SMP Mon May 22 17:31:11 EDT 2017 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.6M | 41.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.250 (0) Free space on disk containing Updraft's temporary directory: 657976.4 MB
+0000.253 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.254 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.303 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1511813915, seconds_ago=604708)
+0000.306 (0) Set semaphore last lock (fd) time to 2017-12-04 20:17:03
+0000.307 (0) Semaphore lock (fd) complete
+0000.313 (0) Backup run: resumption=0, nonce=39cbf6543a87, begun at=1512418622 (1s ago), job type=backup
+0000.315 (0) Scheduling a resumption (1) after 392 seconds (1512419015) in case this run gets aborted
+0000.401 (0) Checking if we have a zip executable available
+0000.403 (0) Testing: /usr/bin/zip
+0000.427 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.429 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.430 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.431 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.432 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.463 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.465 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.494 (0) Working binary zip found: /usr/bin/zip
+0000.504 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.505 (0) Creation of backups of directories: beginning
+0000.508 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.504 (0) Total entities for the zip file: 959 directories, 7715 files (0 skipped as non-modified), 101.2 MB
+0004.507 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.610 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: size is now: 0.20 MB
+0004.617 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 100 files added (on-disk size: 205.6 KB)
+0004.623 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 200 files added (on-disk size: 205.6 KB)
+0004.629 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 300 files added (on-disk size: 205.6 KB)
+0004.636 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 400 files added (on-disk size: 205.6 KB)
+0004.641 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 500 files added (on-disk size: 205.6 KB)
+0004.642 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.6 MB, 7715 files batched, 501 (502) added so far); re-opening (prior size: 205.6 KB)
+0007.783 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: size is now: 5.40 MB
+0007.792 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 600 files added (on-disk size: 5537.2 KB)
+0007.799 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 700 files added (on-disk size: 5537.2 KB)
+0007.812 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 800 files added (on-disk size: 5537.2 KB)
+0007.821 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 900 files added (on-disk size: 5537.2 KB)
+0007.832 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1000 files added (on-disk size: 5537.2 KB)
+0007.834 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 7715 files batched, 501 (1003) added so far); re-opening (prior size: 5537.2 KB)
+0010.134 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: size is now: 8.00 MB
+0010.147 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1100 files added (on-disk size: 8239.4 KB)
+0010.154 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1200 files added (on-disk size: 8239.4 KB)
+0010.161 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1300 files added (on-disk size: 8239.4 KB)
+0010.167 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1400 files added (on-disk size: 8239.4 KB)
+0010.173 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1500 files added (on-disk size: 8239.4 KB)
+0010.174 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 7715 files batched, 501 (1504) added so far); re-opening (prior size: 8239.4 KB)
+0011.102 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1600 files added (on-disk size: 9255.5 KB)
+0011.108 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1700 files added (on-disk size: 9255.5 KB)
+0011.114 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1800 files added (on-disk size: 9255.5 KB)
+0011.120 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 1900 files added (on-disk size: 9255.5 KB)
+0011.127 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2000 files added (on-disk size: 9255.5 KB)
+0011.129 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 7715 files batched, 501 (2005) added so far); re-opening (prior size: 9255.5 KB)
+0011.951 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2100 files added (on-disk size: 9953.2 KB)
+0011.963 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2200 files added (on-disk size: 9953.2 KB)
+0011.974 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2300 files added (on-disk size: 9953.2 KB)
+0011.986 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2400 files added (on-disk size: 9953.2 KB)
+0011.996 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2500 files added (on-disk size: 9953.2 KB)
+0011.998 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 7715 files batched, 501 (2506) added so far); re-opening (prior size: 9953.2 KB)
+0012.749 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: size is now: 12.40 MB
+0012.764 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2600 files added (on-disk size: 12666.3 KB)
+0012.772 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2700 files added (on-disk size: 12666.3 KB)
+0012.778 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2800 files added (on-disk size: 12666.3 KB)
+0012.783 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 2900 files added (on-disk size: 12666.3 KB)
+0012.794 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3000 files added (on-disk size: 12666.3 KB)
+0012.796 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 7715 files batched, 501 (3007) added so far); re-opening (prior size: 12666.3 KB)
+0015.502 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: size is now: 16.80 MB
+0015.510 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3100 files added (on-disk size: 17222.7 KB)
+0015.516 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3200 files added (on-disk size: 17222.7 KB)
+0015.521 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3300 files added (on-disk size: 17222.7 KB)
+0015.527 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3400 files added (on-disk size: 17222.7 KB)
+0015.533 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3500 files added (on-disk size: 17222.7 KB)
+0015.534 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 7715 files batched, 501 (3508) added so far); re-opening (prior size: 17222.7 KB)
+0019.139 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: size is now: 20.80 MB
+0019.149 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3600 files added (on-disk size: 21261.6 KB)
+0019.155 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3700 files added (on-disk size: 21261.6 KB)
+0019.165 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3800 files added (on-disk size: 21261.6 KB)
+0019.172 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 3900 files added (on-disk size: 21261.6 KB)
+0019.180 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4000 files added (on-disk size: 21261.6 KB)
+0019.182 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 7715 files batched, 501 (4009) added so far); re-opening (prior size: 21261.6 KB)
+0022.446 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4100 files added (on-disk size: 24269.2 KB)
+0022.456 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4200 files added (on-disk size: 24269.2 KB)
+0022.467 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4300 files added (on-disk size: 24269.2 KB)
+0022.473 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4400 files added (on-disk size: 24269.2 KB)
+0022.483 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4500 files added (on-disk size: 24269.2 KB)
+0022.485 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 7715 files batched, 501 (4510) added so far); re-opening (prior size: 24269.2 KB)
+0024.083 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4600 files added (on-disk size: 26974.4 KB)
+0024.094 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4700 files added (on-disk size: 26974.4 KB)
+0024.105 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4800 files added (on-disk size: 26974.4 KB)
+0024.116 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 4900 files added (on-disk size: 26974.4 KB)
+0024.127 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5000 files added (on-disk size: 26974.4 KB)
+0024.130 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 7715 files batched, 501 (5011) added so far); re-opening (prior size: 26974.4 KB)
+0030.190 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5100 files added (on-disk size: 28710 KB)
+0030.201 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5200 files added (on-disk size: 28710 KB)
+0030.212 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5300 files added (on-disk size: 28710 KB)
+0030.223 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5400 files added (on-disk size: 28710 KB)
+0030.233 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5500 files added (on-disk size: 28710 KB)
+0030.236 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 7715 files batched, 501 (5512) added so far); re-opening (prior size: 28710 KB)
+0033.466 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5600 files added (on-disk size: 29439 KB)
+0033.478 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5700 files added (on-disk size: 29439 KB)
+0033.489 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5800 files added (on-disk size: 29439 KB)
+0033.499 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 5900 files added (on-disk size: 29439 KB)
+0033.511 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6000 files added (on-disk size: 29439 KB)
+0033.514 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.8 MB, 7715 files batched, 501 (6013) added so far); re-opening (prior size: 29439 KB)
+0038.090 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: size is now: 34.80 MB
+0038.100 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6100 files added (on-disk size: 35623 KB)
+0038.106 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6200 files added (on-disk size: 35623 KB)
+0038.111 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6300 files added (on-disk size: 35623 KB)
+0038.117 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6400 files added (on-disk size: 35623 KB)
+0038.122 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6500 files added (on-disk size: 35623 KB)
+0038.124 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 7715 files batched, 501 (6514) added so far); re-opening (prior size: 35623 KB)
+0042.236 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6600 files added (on-disk size: 38867.9 KB)
+0042.242 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6700 files added (on-disk size: 38867.9 KB)
+0042.248 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6800 files added (on-disk size: 38867.9 KB)
+0042.255 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 6900 files added (on-disk size: 38867.9 KB)
+0042.260 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7000 files added (on-disk size: 38867.9 KB)
+0042.262 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 7715 files batched, 501 (7015) added so far); re-opening (prior size: 38867.9 KB)
+0043.419 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7100 files added (on-disk size: 39871.8 KB)
+0043.425 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7200 files added (on-disk size: 39871.8 KB)
+0043.430 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7300 files added (on-disk size: 39871.8 KB)
+0043.436 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7400 files added (on-disk size: 39871.8 KB)
+0043.442 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7500 files added (on-disk size: 39871.8 KB)
+0043.444 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 7715 files batched, 501 (7516) added so far); re-opening (prior size: 39871.8 KB)
+0045.628 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7600 files added (on-disk size: 41399.4 KB)
+0045.638 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip.tmp: 7700 files added (on-disk size: 41399.4 KB)
+0047.499 (0) Created plugins zip (0) - 42795 KB in 46.8 s (915.2 KB/s) (sha1: d41d72dd5ec60aa7e83f4ecc38df7e74bdc371b6, sha256: da0871074a1126a605e98c2c120afc1ad710be202e2b29654c5ec14086063e12)
+0047.505 (0) Beginning creation of dump of themes (split every: 400 MB)
+0048.409 (0) Total entities for the zip file: 120 directories, 824 files (0 skipped as non-modified), 20.1 MB
+0048.419 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0048.430 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0048.441 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0048.452 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0048.462 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0048.464 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 824 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0051.562 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: size is now: 6.20 MB
+0051.575 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 600 files added (on-disk size: 6331.8 KB)
+0051.581 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 700 files added (on-disk size: 6331.8 KB)
+0051.588 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: 800 files added (on-disk size: 6331.8 KB)
+0052.454 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip.tmp: size is now: 13.90 MB
+0052.662 (0) Created themes zip (0) - 14249.8 KB in 5 s (2860.2 KB/s) (sha1: 062e6f2bf2e98d5a9d8afdb26c8ed35ed9ba69ea, sha256: 99edae7e56e7801bb6c33e2d990717bd090e262c92aa8c60d38ccfa31ae80531)
+0052.665 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0052.666 (0) Looking for candidates to back up in: /home2/eyeasso1/public_html/seetheclarity/wp-content/uploads
+0052.667 (0) finding files: 2012: adding to list (1)
+0052.668 (0) finding files: 2015: adding to list (2)
+0052.669 (0) finding files: 2011: adding to list (3)
+0052.670 (0) finding files: 1368459556_twitter.png: adding to list (4)
+0052.670 (0) finding files: 2016: adding to list (5)
+0052.671 (0) finding files: 2013: adding to list (6)
+0052.672 (0) finding files: gravity_forms: adding to list (7)
+0052.673 (0) finding files: wpcf7_uploads: adding to list (8)
+0052.674 (0) finding files: revslider: adding to list (9)
+0052.674 (0) finding files: 1368459524_facebook.png: adding to list (10)
+0052.675 (0) finding files: 1368459641_flicker.png: adding to list (11)
+0052.676 (0) finding files: 2017: adding to list (12)
+0052.677 (0) finding files: 1368459724_youtube.png: adding to list (13)
+0052.678 (0) finding files: ithemes-security: adding to list (14)
+0052.678 (0) finding files: 2014: adding to list (15)
+0052.679 (0) finding files: 1368459699_in.png: adding to list (16)
+0052.680 (0) finding files: wp-migrate-db: adding to list (17)
+0052.681 (0) finding files: profiles: adding to list (18)
+0052.682 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0054.459 (0) Total entities for the zip file: 207 directories, 5466 files (0 skipped as non-modified), 370.4 MB
+0054.471 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0054.483 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0054.494 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0054.499 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 5466 files batched, 326 (326) added so far); re-opening (prior size: 0 KB)
+0058.446 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: size is now: 25.40 MB
+0058.449 (0) A useful amount of data was added after this amount of zip processing: 6.4 s (normalised: 6.3 s, rate: 4068.5 KB/s)
+0058.455 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 400 files added (on-disk size: 26020.9 KB)
+0058.460 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 500 files added (on-disk size: 26020.9 KB)
+0058.467 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 600 files added (on-disk size: 26020.9 KB)
+0058.472 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 5466 files batched, 363 (689) added so far); re-opening (prior size: 26020.9 KB)
+0063.825 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: size is now: 50.90 MB
+0063.829 (0) A useful amount of data was added after this amount of zip processing: 5.8 s (normalised: 5.7 s, rate: 4529.6 KB/s)
+0063.831 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.7508099079132, normalised_time=5.6517560614353, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=27829651)
+0063.833 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 700 files added (on-disk size: 52148.8 KB)
+0063.839 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 800 files added (on-disk size: 52148.8 KB)
+0063.845 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 900 files added (on-disk size: 52148.8 KB)
+0063.850 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1000 files added (on-disk size: 52148.8 KB)
+0063.856 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1100 files added (on-disk size: 52148.8 KB)
+0063.861 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.4 MB, 5466 files batched, 501 (1190) added so far); re-opening (prior size: 52148.8 KB)
+0068.591 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: size is now: 73.50 MB
+0068.596 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1200 files added (on-disk size: 75220.3 KB)
+0068.602 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1300 files added (on-disk size: 75220.3 KB)
+0068.612 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1400 files added (on-disk size: 75220.3 KB)
+0068.621 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1500 files added (on-disk size: 75220.3 KB)
+0068.627 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1600 files added (on-disk size: 75220.3 KB)
+0068.631 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 26.5 MB added on this batch (27.3 MB, 5466 files batched, 471 (1661) added so far); re-opening (prior size: 75220.3 KB)
+0074.178 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: size is now: 100.80 MB
+0074.181 (0) A useful amount of data was added after this amount of zip processing: 6.1 s (normalised: 5.9 s, rate: 4577.2 KB/s)
+0074.183 (0) Performance is good - will increase the amount of data we attempt to batch (time=6.1025741100311, normalised_time=5.9376128667776, max_time=-1, data points known=0, old_max_bytes=27829651, new_max_bytes=28122060)
+0074.187 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1700 files added (on-disk size: 103247.4 KB)
+0074.193 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1800 files added (on-disk size: 103247.4 KB)
+0074.203 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 1900 files added (on-disk size: 103247.4 KB)
+0074.209 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 26.8 MB added on this batch (27.3 MB, 5466 files batched, 283 (1944) added so far); re-opening (prior size: 103247.4 KB)
+0077.174 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: size is now: 128.20 MB
+0077.179 (0) A useful amount of data was added after this amount of zip processing: 3.1 s (normalised: 3 s, rate: 9029.1 KB/s)
+0077.182 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.1005599498749, normalised_time=3.0415891329816, max_time=-1, data points known=0, old_max_bytes=28122060, new_max_bytes=55475066)
+0077.189 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2000 files added (on-disk size: 131297 KB)
+0077.200 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2100 files added (on-disk size: 131297 KB)
+0077.211 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2200 files added (on-disk size: 131297 KB)
+0077.217 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2300 files added (on-disk size: 131297 KB)
+0077.228 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2400 files added (on-disk size: 131297 KB)
+0077.233 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.1 MB, 5466 files batched, 501 (2445) added so far); re-opening (prior size: 131297 KB)
+0081.688 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2500 files added (on-disk size: 148803.8 KB)
+0081.693 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2600 files added (on-disk size: 148803.8 KB)
+0081.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 52.9 MB added on this batch (65.7 MB, 5466 files batched, 210 (2655) added so far); re-opening (prior size: 148803.8 KB)
+0086.511 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: size is now: 211.00 MB
+0086.515 (0) A useful amount of data was added after this amount of zip processing: 5.4 s (normalised: 4.4 s, rate: 12369.9 KB/s)
+0086.517 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.4365339279175, normalised_time=4.3795739736293, max_time=-1, data points known=0, old_max_bytes=55475066, new_max_bytes=76000633)
+0086.522 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2700 files added (on-disk size: 216091 KB)
+0086.528 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2800 files added (on-disk size: 216091 KB)
+0086.534 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 2900 files added (on-disk size: 216091 KB)
+0086.539 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3000 files added (on-disk size: 216091 KB)
+0086.545 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3100 files added (on-disk size: 216091 KB)
+0086.549 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (50.4 MB, 5466 files batched, 501 (3156) added so far); re-opening (prior size: 216091 KB)
+0093.859 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: size is now: 261.50 MB
+0093.867 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3200 files added (on-disk size: 267784 KB)
+0093.891 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3300 files added (on-disk size: 267784 KB)
+0093.903 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3400 files added (on-disk size: 267784 KB)
+0093.915 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3500 files added (on-disk size: 267784 KB)
+0093.925 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3600 files added (on-disk size: 267784 KB)
+0093.932 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 5466 files batched, 501 (3657) added so far); re-opening (prior size: 267784 KB)
+0097.925 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3700 files added (on-disk size: 283537 KB)
+0097.936 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3800 files added (on-disk size: 283537 KB)
+0097.949 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 3900 files added (on-disk size: 283537 KB)
+0097.958 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4000 files added (on-disk size: 283537 KB)
+0097.969 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4100 files added (on-disk size: 283537 KB)
+0097.976 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13 MB, 5466 files batched, 501 (4158) added so far); re-opening (prior size: 283537 KB)
+0101.711 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4200 files added (on-disk size: 296897.3 KB)
+0101.723 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4300 files added (on-disk size: 296897.3 KB)
+0101.734 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4400 files added (on-disk size: 296897.3 KB)
+0101.744 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4500 files added (on-disk size: 296897.3 KB)
+0101.755 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4600 files added (on-disk size: 296897.3 KB)
+0101.761 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (33.6 MB, 5466 files batched, 501 (4659) added so far); re-opening (prior size: 296897.3 KB)
+0108.391 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4700 files added (on-disk size: 331260.7 KB)
+0108.401 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4800 files added (on-disk size: 331260.7 KB)
+0108.407 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 4900 files added (on-disk size: 331260.7 KB)
+0108.412 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 5000 files added (on-disk size: 331260.7 KB)
+0108.418 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 5100 files added (on-disk size: 331260.7 KB)
+0108.422 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (29.6 MB, 5466 files batched, 501 (5160) added so far); re-opening (prior size: 331260.7 KB)
+0112.380 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 5200 files added (on-disk size: 361645.7 KB)
+0112.392 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 5300 files added (on-disk size: 361645.7 KB)
+0112.405 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip.tmp: 5400 files added (on-disk size: 361645.7 KB)
+0120.277 (0) Created uploads zip (0) - 380115.1 KB in 67.4 s (5638.7 KB/s) (sha1: de8aa01ab116a0cb791af73db200d3d0f71f4ea5, sha256: 8a74ce0e59423f094d5be5dce359b03c668e7df45564ff6da48e254175723167)
+0120.281 (0) Beginning backup of other directories found in the content directory (index: 0)
+0120.283 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0120.285 (0) Looking for candidates to back up in: /home2/eyeasso1/public_html/seetheclarity/wp-content
+0120.301 (0) finding files: cache: skipping: excluded by options
+0120.302 (0) finding files: wp-cache-config.php.bak: adding to list (1)
+0120.303 (0) finding files: w3tc-config: adding to list (2)
+0120.304 (0) finding files: themes: skipping: this is the themes directory
+0120.305 (0) finding files: index.php: adding to list (3)
+0120.306 (0) finding files: ----cache---: adding to list (4)
+0120.306 (0) finding files: plugins: skipping: this is the plugins directory
+0120.307 (0) finding files: .htaccess: adding to list (5)
+0120.308 (0) finding files: 500.php: adding to list (6)
+0120.309 (0) finding files: updraft: skipping: this is the updraft directory
+0120.310 (0) finding files: upgrade: skipping: excluded by options
+0120.311 (0) finding files: cgi-bin: adding to list (7)
+0120.312 (0) finding files: plugins_inactive: adding to list (8)
+0120.313 (0) finding files: 404.shtml: adding to list (9)
+0120.314 (0) finding files: 400.shtml: adding to list (10)
+0120.315 (0) finding files: 401.shtml: adding to list (11)
+0120.316 (0) finding files: uploads: skipping: this is the uploads directory
+0120.317 (0) finding files: mu-plugins: adding to list (12)
+0120.318 (0) finding files: 403.shtml: adding to list (13)
+0120.320 (0) finding files: 500.shtml: adding to list (14)
+0120.321 (0) finding files: .htaccess.suspend.1412251781: adding to list (15)
+0120.322 (0) finding files: default.html: adding to list (16)
+0120.323 (0) finding files: favicon.ico: adding to list (17)
+0134.310 (0) Total entities for the zip file: 2231 directories, 2707 files (0 skipped as non-modified), 140.5 MB
+0134.319 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0134.539 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: size is now: 0.60 MB
+0134.545 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 72.5 MB added on this batch (76 MB, 2707 files batched, 7 (8) added so far); re-opening (prior size: 591.4 KB)
+0139.962 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: size is now: 4.70 MB
+0139.976 (0) A useful amount of data was added after this amount of zip processing: 5.9 s (normalised: 5.6 s, rate: 13187.2 KB/s)
+0139.980 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.8978700637817, normalised_time=5.6281392915402, max_time=-1, data points known=0, old_max_bytes=76000633, new_max_bytes=81022123)
+0139.990 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 100 files added (on-disk size: 4772.4 KB)
+0139.996 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 200 files added (on-disk size: 4772.4 KB)
+0140.004 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 300 files added (on-disk size: 4772.4 KB)
+0140.011 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 400 files added (on-disk size: 4772.4 KB)
+0140.017 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 500 files added (on-disk size: 4772.4 KB)
+0140.018 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.4 MB, 2707 files batched, 501 (509) added so far); re-opening (prior size: 4772.4 KB)
+0144.473 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: size is now: 7.90 MB
+0144.489 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 600 files added (on-disk size: 8064.1 KB)
+0144.495 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 700 files added (on-disk size: 8064.1 KB)
+0144.500 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 800 files added (on-disk size: 8064.1 KB)
+0144.506 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 900 files added (on-disk size: 8064.1 KB)
+0144.512 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1000 files added (on-disk size: 8064.1 KB)
+0144.513 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.4 MB, 2707 files batched, 501 (1010) added so far); re-opening (prior size: 8064.1 KB)
+0148.930 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: size is now: 11.60 MB
+0148.943 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1100 files added (on-disk size: 11839.3 KB)
+0148.949 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1200 files added (on-disk size: 11839.3 KB)
+0148.955 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1300 files added (on-disk size: 11839.3 KB)
+0148.961 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1400 files added (on-disk size: 11839.3 KB)
+0148.966 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1500 files added (on-disk size: 11839.3 KB)
+0148.968 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.9 MB, 2707 files batched, 501 (1511) added so far); re-opening (prior size: 11839.3 KB)
+0150.755 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: size is now: 14.70 MB
+0150.764 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1600 files added (on-disk size: 15086.7 KB)
+0150.770 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1700 files added (on-disk size: 15086.7 KB)
+0150.775 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1800 files added (on-disk size: 15086.7 KB)
+0150.781 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 1900 files added (on-disk size: 15086.7 KB)
+0150.787 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2000 files added (on-disk size: 15086.7 KB)
+0150.788 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 2707 files batched, 501 (2012) added so far); re-opening (prior size: 15086.7 KB)
+0152.815 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: size is now: 18.60 MB
+0152.824 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2100 files added (on-disk size: 19086.9 KB)
+0152.830 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2200 files added (on-disk size: 19086.9 KB)
+0152.836 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2300 files added (on-disk size: 19086.9 KB)
+0152.842 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2400 files added (on-disk size: 19086.9 KB)
+0152.848 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2500 files added (on-disk size: 19086.9 KB)
+0152.850 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 2707 files batched, 501 (2513) added so far); re-opening (prior size: 19086.9 KB)
+0154.139 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2600 files added (on-disk size: 21059.1 KB)
+0154.145 (0) Zip: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip.tmp: 2700 files added (on-disk size: 21059.1 KB)
+0155.252 (0) Created others zip (0) - 21581.3 KB in 34.7 s (621.2 KB/s) (sha1: da9b4ac41670c8af0c9228f3313dbf35e2712c8d, sha256: 5d15098406946e4ff2c333eed1a31b39136c12406c5db2baf1891951e977d7bf)
+0155.261 (0) Saving backup status to database (elements: 8)
+0155.265 (0) Beginning creation of database dump (WordPress DB)
+0155.269 (0) Testing: /usr/bin/mysqldump
+0155.286 (0) Binary mysqldump: error (code: 2)
+0155.654 (0) Table eyeasso_options: Total expected rows (approximate): 702
+0155.730 (0) Table eyeasso_options: Total rows added: 699 in 0.07 seconds
+0155.733 (0) Table eyeasso_options: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_options.table.gz - 216.8 KB)
+0155.742 (0) Table eyeasso_users: Total expected rows (approximate): 5
+0155.747 (0) Table eyeasso_users: Total rows added: 5 in 0.00 seconds
+0155.748 (0) Table eyeasso_users: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_users.table.gz - 0.8 KB)
+0155.757 (0) Table eyeasso_usermeta: Total expected rows (approximate): 128
+0155.764 (0) Table eyeasso_usermeta: Total rows added: 128 in 0.01 seconds
+0155.766 (0) Table eyeasso_usermeta: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_usermeta.table.gz - 2.9 KB)
+0155.772 (0) Table eyeasso_commentmeta: Total expected rows (approximate): 51
+0155.778 (0) Table eyeasso_commentmeta: Total rows added: 51 in 0.00 seconds
+0155.780 (0) Table eyeasso_commentmeta: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_commentmeta.table.gz - 1.1 KB)
+0155.786 (0) Table eyeasso_comments: Total expected rows (approximate): 25
+0155.794 (0) Table eyeasso_comments: Total rows added: 25 in 0.01 seconds
+0155.796 (0) Table eyeasso_comments: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_comments.table.gz - 4.2 KB)
+0155.806 (0) Table eyeasso_links: Total expected rows (approximate): 0
+0155.810 (0) Table eyeasso_links: Total rows added: 0 in 0.00 seconds
+0155.812 (0) Table eyeasso_links: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_links.table.gz - 0.4 KB)
+0155.817 (0) Table eyeasso_postmeta: Total expected rows (approximate): 25589
+0156.606 (0) Table eyeasso_postmeta: Total rows added: 25589 in 0.79 seconds
+0156.607 (0) Table eyeasso_postmeta: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_postmeta.table.gz - 376.4 KB)
+0156.612 (0) Table eyeasso_posts: Total expected rows (approximate): 1266
+0156.789 (0) Table eyeasso_posts: Total rows added: 1266 in 0.18 seconds
+0156.791 (0) Table eyeasso_posts: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_posts.table.gz - 144.1 KB)
+0156.795 (0) Table eyeasso_term_relationships: Total expected rows (approximate): 153
+0156.800 (0) Table eyeasso_term_relationships: Total rows added: 153 in 0.00 seconds
+0156.802 (0) Table eyeasso_term_relationships: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_term_relationships.table.gz - 0.8 KB)
+0156.806 (0) Table eyeasso_term_taxonomy: Total expected rows (approximate): 150
+0156.812 (0) Table eyeasso_term_taxonomy: Total rows added: 150 in 0.01 seconds
+0156.813 (0) Table eyeasso_term_taxonomy: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_term_taxonomy.table.gz - 1.5 KB)
+0156.817 (0) Table eyeasso_terms: Total expected rows (approximate): 150
+0156.822 (0) Table eyeasso_terms: Total rows added: 150 in 0.00 seconds
+0156.823 (0) Table eyeasso_terms: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_terms.table.gz - 2.2 KB)
+0156.831 (0) Table eyeasso_cf7dbplugin_st: Total expected rows (approximate): 50
+0156.835 (0) Table eyeasso_cf7dbplugin_st: Total rows added: 50 in 0.00 seconds
+0156.836 (0) Table eyeasso_cf7dbplugin_st: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_cf7dbplugin_st.table.gz - 0.7 KB)
+0156.842 (0) Table eyeasso_cf7dbplugin_submits: Total expected rows (approximate): 546
+0157.128 (0) Table eyeasso_cf7dbplugin_submits: Total rows added: 546 in 0.28 seconds
+0157.129 (0) Table eyeasso_cf7dbplugin_submits: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_cf7dbplugin_submits.table.gz - 3212.5 KB)
+0157.140 (0) Table eyeasso_cn_social_icon: Total expected rows (approximate): 0
+0157.145 (0) Table eyeasso_cn_social_icon: Total rows added: 0 in 0.00 seconds
+0157.147 (0) Table eyeasso_cn_social_icon: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_cn_social_icon.table.gz - 0.3 KB)
+0157.153 (0) Table eyeasso_duplicator_packages: Total expected rows (approximate): 7
+0157.158 (0) Table eyeasso_duplicator_packages: Total rows added: 7 in 0.00 seconds
+0157.159 (0) Table eyeasso_duplicator_packages: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_duplicator_packages.table.gz - 1.5 KB)
+0157.168 (0) Table eyeasso_funbox: Total expected rows (approximate): 2
+0157.172 (0) Table eyeasso_funbox: Total rows added: 2 in 0.00 seconds
+0157.173 (0) Table eyeasso_funbox: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_funbox.table.gz - 1.3 KB)
+0157.180 (0) Table eyeasso_itsec_lockouts: Total expected rows (approximate): 0
+0157.182 (0) Table eyeasso_itsec_lockouts: Total rows added: 0 in 0.00 seconds
+0157.184 (0) Table eyeasso_itsec_lockouts: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_itsec_lockouts.table.gz - 0.4 KB)
+0157.189 (0) Table eyeasso_itsec_log: Total expected rows (approximate): 0
+0157.191 (0) Table eyeasso_itsec_log: Total rows added: 0 in 0.00 seconds
+0157.192 (0) Table eyeasso_itsec_log: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_itsec_log.table.gz - 0.4 KB)
+0157.198 (0) Table eyeasso_itsec_temp: Total expected rows (approximate): 0
+0157.200 (0) Table eyeasso_itsec_temp: Total rows added: 0 in 0.00 seconds
+0157.202 (0) Table eyeasso_itsec_temp: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_itsec_temp.table.gz - 0.4 KB)
+0157.209 (0) Table eyeasso_layerslider: Total expected rows (approximate): 0
+0157.211 (0) Table eyeasso_layerslider: Total rows added: 0 in 0.00 seconds
+0157.213 (0) Table eyeasso_layerslider: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_layerslider.table.gz - 0.3 KB)
+0157.220 (0) Table eyeasso_redirection_404: Total expected rows (approximate): 89757
+0162.773 (0) Table eyeasso_redirection_404: Total rows added: 89757 in 5.55 seconds
+0162.777 (0) Table eyeasso_redirection_404: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_404.table.gz - 2172.1 KB)
+0162.784 (0) Table eyeasso_redirection_groups: Total expected rows (approximate): 2
+0162.799 (0) Table eyeasso_redirection_groups: Total rows added: 2 in 0.01 seconds
+0162.800 (0) Table eyeasso_redirection_groups: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_groups.table.gz - 0.4 KB)
+0162.811 (0) Table eyeasso_redirection_items: Total expected rows (approximate): 57
+0162.822 (0) Table eyeasso_redirection_items: Total rows added: 57 in 0.01 seconds
+0162.823 (0) Table eyeasso_redirection_items: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_items.table.gz - 2.3 KB)
+0162.831 (0) Table eyeasso_redirection_logs: Total expected rows (approximate): 27341
+0165.779 (0) Table eyeasso_redirection_logs: Total rows added: 27341 in 2.95 seconds
+0165.781 (0) Table eyeasso_redirection_logs: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_logs.table.gz - 748 KB)
+0165.789 (0) Table eyeasso_redirection_modules: Total expected rows (approximate): 2
+0165.794 (0) Table eyeasso_redirection_modules: Total rows added: 2 in 0.00 seconds
+0165.796 (0) Table eyeasso_redirection_modules: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_modules.table.gz - 0.4 KB)
+0165.811 (0) Table eyeasso_revslider_css: Total expected rows (approximate): 109
+0165.869 (0) Table eyeasso_revslider_css: Total rows added: 109 in 0.06 seconds
+0165.871 (0) Table eyeasso_revslider_css: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_css.table.gz - 4.9 KB)
+0165.883 (0) Table eyeasso_revslider_layer_animations: Total expected rows (approximate): 0
+0165.886 (0) Table eyeasso_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0165.888 (0) Table eyeasso_revslider_layer_animations: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_layer_animations.table.gz - 0.3 KB)
+0165.895 (0) Table eyeasso_revslider_navigations: Total expected rows (approximate): 0
+0165.897 (0) Table eyeasso_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0165.898 (0) Table eyeasso_revslider_navigations: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_navigations.table.gz - 0.3 KB)
+0165.905 (0) Table eyeasso_revslider_settings: Total expected rows (approximate): 1
+0165.909 (0) Table eyeasso_revslider_settings: Total rows added: 1 in 0.00 seconds
+0165.910 (0) Table eyeasso_revslider_settings: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_settings.table.gz - 0.3 KB)
+0165.917 (0) Table eyeasso_revslider_sliders: Total expected rows (approximate): 3
+0165.924 (0) Table eyeasso_revslider_sliders: Total rows added: 3 in 0.01 seconds
+0165.925 (0) Table eyeasso_revslider_sliders: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_sliders.table.gz - 3.5 KB)
+0165.931 (0) Table eyeasso_revslider_slides: Total expected rows (approximate): 7
+0165.939 (0) Table eyeasso_revslider_slides: Total rows added: 7 in 0.01 seconds
+0165.941 (0) Table eyeasso_revslider_slides: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_slides.table.gz - 7.2 KB)
+0165.948 (0) Table eyeasso_revslider_static_slides: Total expected rows (approximate): 1
+0165.951 (0) Table eyeasso_revslider_static_slides: Total rows added: 1 in 0.00 seconds
+0165.952 (0) Table eyeasso_revslider_static_slides: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_static_slides.table.gz - 0.4 KB)
+0165.957 (0) Table eyeasso_rg_form: Total expected rows (approximate): 4
+0165.960 (0) Table eyeasso_rg_form: Total rows added: 4 in 0.00 seconds
+0165.962 (0) Table eyeasso_rg_form: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_form.table.gz - 0.5 KB)
+0165.967 (0) Table eyeasso_rg_form_meta: Total expected rows (approximate): 4
+0165.973 (0) Table eyeasso_rg_form_meta: Total rows added: 4 in 0.00 seconds
+0165.974 (0) Table eyeasso_rg_form_meta: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_form_meta.table.gz - 2.8 KB)
+0165.978 (0) Table eyeasso_rg_form_view: Total expected rows (approximate): 49
+0165.982 (0) Table eyeasso_rg_form_view: Total rows added: 49 in 0.00 seconds
+0165.983 (0) Table eyeasso_rg_form_view: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_form_view.table.gz - 1.3 KB)
+0165.989 (0) Table eyeasso_rg_incomplete_submissions: Total expected rows (approximate): 0
+0165.991 (0) Table eyeasso_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0165.993 (0) Table eyeasso_rg_incomplete_submissions: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_incomplete_submissions.table.gz - 0.4 KB)
+0165.998 (0) Table eyeasso_rg_lead: Total expected rows (approximate): 4
+0166.002 (0) Table eyeasso_rg_lead: Total rows added: 4 in 0.00 seconds
+0166.003 (0) Table eyeasso_rg_lead: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead.table.gz - 0.9 KB)
+0166.009 (0) Table eyeasso_rg_lead_detail: Total expected rows (approximate): 49
+0166.014 (0) Table eyeasso_rg_lead_detail: Total rows added: 49 in 0.00 seconds
+0166.015 (0) Table eyeasso_rg_lead_detail: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_detail.table.gz - 1.2 KB)
+0166.022 (0) Table eyeasso_rg_lead_detail_long: Total expected rows (approximate): 0
+0166.025 (0) Table eyeasso_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0166.026 (0) Table eyeasso_rg_lead_detail_long: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_detail_long.table.gz - 0.3 KB)
+0166.032 (0) Table eyeasso_rg_lead_meta: Total expected rows (approximate): 0
+0166.034 (0) Table eyeasso_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0166.035 (0) Table eyeasso_rg_lead_meta: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_meta.table.gz - 0.4 KB)
+0166.042 (0) Table eyeasso_rg_lead_notes: Total expected rows (approximate): 0
+0166.047 (0) Table eyeasso_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0166.048 (0) Table eyeasso_rg_lead_notes: finishing file (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_notes.table.gz - 0.4 KB)
+0166.052 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_options.table.gz (1/41): adding to final database dump
+0166.112 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_users.table.gz (2/41): adding to final database dump
+0166.116 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_usermeta.table.gz (3/41): adding to final database dump
+0166.120 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_commentmeta.table.gz (4/41): adding to final database dump
+0166.122 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_comments.table.gz (5/41): adding to final database dump
+0166.126 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_links.table.gz (6/41): adding to final database dump
+0166.128 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_postmeta.table.gz (7/41): adding to final database dump
+0166.393 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_posts.table.gz (8/41): adding to final database dump
+0166.446 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_term_relationships.table.gz (9/41): adding to final database dump
+0166.449 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_term_taxonomy.table.gz (10/41): adding to final database dump
+0166.452 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_terms.table.gz (11/41): adding to final database dump
+0166.454 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_cf7dbplugin_st.table.gz (12/41): adding to final database dump
+0166.456 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_cf7dbplugin_submits.table.gz (13/41): adding to final database dump
+0166.696 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_cn_social_icon.table.gz (14/41): adding to final database dump
+0166.698 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_duplicator_packages.table.gz (15/41): adding to final database dump
+0166.700 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_funbox.table.gz (16/41): adding to final database dump
+0166.702 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_itsec_lockouts.table.gz (17/41): adding to final database dump
+0166.703 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_itsec_log.table.gz (18/41): adding to final database dump
+0166.704 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_itsec_temp.table.gz (19/41): adding to final database dump
+0166.706 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_layerslider.table.gz (20/41): adding to final database dump
+0166.707 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_404.table.gz (21/41): adding to final database dump
+0167.867 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_groups.table.gz (22/41): adding to final database dump
+0167.869 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_items.table.gz (23/41): adding to final database dump
+0167.871 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_logs.table.gz (24/41): adding to final database dump
+0168.342 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_redirection_modules.table.gz (25/41): adding to final database dump
+0168.344 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_css.table.gz (26/41): adding to final database dump
+0168.349 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_layer_animations.table.gz (27/41): adding to final database dump
+0168.351 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_navigations.table.gz (28/41): adding to final database dump
+0168.353 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_settings.table.gz (29/41): adding to final database dump
+0168.355 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_sliders.table.gz (30/41): adding to final database dump
+0168.357 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_slides.table.gz (31/41): adding to final database dump
+0168.362 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_revslider_static_slides.table.gz (32/41): adding to final database dump
+0168.364 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_form.table.gz (33/41): adding to final database dump
+0168.365 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_form_meta.table.gz (34/41): adding to final database dump
+0168.367 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_form_view.table.gz (35/41): adding to final database dump
+0168.369 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_incomplete_submissions.table.gz (36/41): adding to final database dump
+0168.370 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead.table.gz (37/41): adding to final database dump
+0168.372 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_detail.table.gz (38/41): adding to final database dump
+0168.374 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_detail_long.table.gz (39/41): adding to final database dump
+0168.375 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_meta.table.gz (40/41): adding to final database dump
+0168.376 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db-table-eyeasso_rg_lead_notes.table.gz (41/41): adding to final database dump
+0168.377 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz: finished writing out complete database file (6880 KB)
+0168.497 (0) Total database tables backed up: 41 (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz, size: 7074084, sha256)
+0168.510 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0168.511 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0168.513 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0168.514 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip: others: This file has not yet been successfully uploaded: will queue
+0168.515 (0) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz: db: This file has not yet been successfully uploaded: will queue
+0168.516 (0) Saving backup history. Total backup size: 454.7 MB
+0168.519 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0168.523 (0) Cloud backup selection (1/1): dropbox (last)
+0168.524 (0) Beginning dispatch of backup to remote (dropbox)
+0168.533 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0168.539 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0168.965 (0) Dropbox quota usage: used=971.9 MB, total=2048 MB, available=1076.1 MB
+0168.967 (0) Dropbox: Attempt to upload: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip to: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip
+0170.378 (0) Dropbox chunked upload: 2.4 % uploaded (AAAAAAAAAMTcmdmTBE_UwA, 1048576, 6144 KB)
+0174.026 (0) Dropbox chunked upload: 16.7 % uploaded (AAAAAAAAAMTcmdmTBE_UwA, 7340032, 10240 KB)
+0180.479 (0) Dropbox chunked upload: 40.7 % uploaded (AAAAAAAAAMTcmdmTBE_UwA, 17825792, 10240 KB)
+0184.941 (0) Dropbox chunked upload: 64.6 % uploaded (AAAAAAAAAMTcmdmTBE_UwA, 28311552, 10240 KB)
+0189.409 (0) Dropbox chunked upload: 88.5 % uploaded (AAAAAAAAAMTcmdmTBE_UwA, 38797312, 10240 KB)
+0192.215 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAMTcmdmTBE_UwA, 43822067, 10240 KB)
+0194.301 (0) Recording as successfully uploaded: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip (08c9b2227ba7e344ebdf0723ef760dec)
+0194.319 (0) Deleting local file: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip: OK
+0194.320 (0) Dropbox: File upload success (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip): 42794 KB in 25s (1687 KB/s)
+0195.045 (0) Dropbox quota usage: used=1013.6 MB, total=2048 MB, available=1034.4 MB
+0195.046 (0) Dropbox: Attempt to upload: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip to: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip
+0198.919 (0) Dropbox chunked upload: 71.9 % uploaded (AAAAAAAAAMUrViLY8LqdlQ, 10485760, 10240 KB)
+0202.256 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAMUrViLY8LqdlQ, 14591832, 10240 KB)
+0204.639 (0) Recording as successfully uploaded: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip (1ebeac20bffa24d54b6e1c5f12200c45)
+0204.653 (0) Deleting local file: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip: OK
+0204.655 (0) Dropbox: File upload success (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip): 14249 KB in 9s (1483 KB/s)
+0205.034 (0) Dropbox quota usage: used=1027.6 MB, total=2048 MB, available=1020.4 MB
+0205.036 (0) Dropbox: Attempt to upload: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip to: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip
+0208.611 (0) Dropbox chunked upload: 2.7 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 10485760, 10240 KB)
+0213.322 (0) Dropbox chunked upload: 5.4 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 20971520, 10240 KB)
+0216.625 (0) Dropbox chunked upload: 8.1 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 31457280, 10240 KB)
+0221.372 (0) Dropbox chunked upload: 10.8 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 41943040, 10240 KB)
+0228.809 (0) Dropbox chunked upload: 13.5 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 52428800, 10240 KB)
+0233.409 (0) Dropbox chunked upload: 16.2 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 62914560, 10240 KB)
+0237.503 (0) Dropbox chunked upload: 18.9 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 73400320, 10240 KB)
+0242.098 (0) Dropbox chunked upload: 21.6 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 83886080, 10240 KB)
+0245.733 (0) Dropbox chunked upload: 24.2 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 94371840, 10240 KB)
+0250.752 (0) Dropbox chunked upload: 26.9 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 104857600, 10240 KB)
+0254.294 (0) Dropbox chunked upload: 29.6 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 115343360, 10240 KB)
+0259.427 (0) Dropbox chunked upload: 32.3 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 125829120, 10240 KB)
+0266.324 (0) Dropbox chunked upload: 35 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 136314880, 10240 KB)
+0271.845 (0) Dropbox chunked upload: 37.7 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 146800640, 10240 KB)
+0275.317 (0) Dropbox chunked upload: 40.4 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 157286400, 10240 KB)
+0280.413 (0) Dropbox chunked upload: 43.1 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 167772160, 10240 KB)
+0284.332 (0) Dropbox chunked upload: 45.8 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 178257920, 10240 KB)
+0290.070 (0) Dropbox chunked upload: 48.5 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 188743680, 10240 KB)
+0293.523 (0) Dropbox chunked upload: 51.2 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 199229440, 10240 KB)
+0300.527 (0) Dropbox chunked upload: 53.9 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 209715200, 10240 KB)
+0304.889 (0) Dropbox chunked upload: 56.6 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 220200960, 10240 KB)
+0309.514 (0) Dropbox chunked upload: 59.3 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 230686720, 10240 KB)
+0313.408 (0) Dropbox chunked upload: 62 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 241172480, 10240 KB)
+0319.017 (0) Dropbox chunked upload: 64.7 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 251658240, 10240 KB)
+0323.128 (0) Dropbox chunked upload: 67.3 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 262144000, 10240 KB)
+0328.377 (0) Dropbox chunked upload: 70 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 272629760, 10240 KB)
+0332.336 (0) Dropbox chunked upload: 72.7 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 283115520, 10240 KB)
+0337.128 (0) Dropbox chunked upload: 75.4 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 293601280, 10240 KB)
+0340.825 (0) Dropbox chunked upload: 78.1 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 304087040, 10240 KB)
+0341.905 (0) Dropbox chunked upload exception (Dropbox_Exception):  (line: 230, file: /home2/eyeasso1/public_html/seetheclarity/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0341.907 (0) Dropbox error: 
+0341.909 (0) An error condition has occurred for the first time during this job
+0345.117 (0) Dropbox error: exception (Dropbox_Exception) occurred whilst getting account info: <!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Dropbox - 4xx</title>
+<link href="https://cfl.dropboxstatic.com/static/css/error.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="https://cfl.dropboxstatic.com/static/images/favicon.ico"/>
+
+</head>
+<body>
+<div class="figure">
+<img src="https://cfl.dropboxstatic.com/static/images/illustration_catalog/404_error-illo.png" srcset="https://cfl.dropboxstatic.com/static/images/illustration_catalog/404_error-illo@2x.png 2x" alt="Error: 4xx"/>
+</div>
+<div id="errorbox">
+<div class="not-found"> <h1>Error (4xx)</h1> We can't find the page you're looking for. <div class="not-found--links"> Here are a few links that may be helpful: <ul> <li><a href="https://www.dropbox.com/home?_tk=fof">Home</a></li> <li><a href="https://www.dropbox.com/help?_tk=fof">Help center</a></li> <li><a href="https://www.dropbox.com/login?_tk=fof">Sign in</a></li> <li><a href="https://www.dropbox.com/register?_tk=fof">Get a free account</a></li> <li><a href="https://www.dropbox.com/plus?_tk=fof">Dropbox Plus</a></li> <li><a href="https://www.dropbox.com/business?_tk=fof">Dropbox Business</a></li> </ul> </div> </div>
+</div>
+
+<script>
+message = {"ru": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003e\u041e\u0448\u0438\u0431\u043a\u0430 (4xx)\u003c/h1\u003e \u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043d\u0430\u0439\u0442\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0432\u044b \u0438\u0449\u0435\u0442\u0435. \u003cdiv class=\"not-found--links\"\u003e \u0412\u043e\u0442 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0441\u044b\u043b\u043e\u043a, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0433\u0443 \u0432\u0430\u043c \u043f\u0440\u0438\u0433\u043e\u0434\u0438\u0442\u044c\u0441\u044f: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u0414\u043e\u043c\u0430\u0448\u043d\u044f\u044f \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u044b\u0439 \u0446\u0435\u043d\u0442\u0440\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u0412\u043e\u0439\u0442\u0438\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u0417\u0430\u0432\u0435\u0434\u0438\u0442\u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "fr": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eErreur (4xx)\u003c/h1\u003e La page recherch\u00e9e est introuvable. \u003cdiv class=\"not-found--links\"\u003e Voici quelques liens utiles\u00a0: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eAccueil\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentre d'assistance\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eSe connecter\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObtenir un compte gratuit\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox\u00a0Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox\u00a0Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "zh_TW": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u932f\u8aa4 (4xx)\u003c/h1\u003e \u6211\u5011\u627e\u4e0d\u5230\u60a8\u8981\u67e5\u770b\u7684\u9801\u9762\u3002\u003cdiv class=\"not-found--links\"\u003e\u8acb\u53c3\u8003\u4ee5\u4e0b\u9023\u7d50\uff1a\u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u9996\u9801\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u8aaa\u660e\u4e2d\u5fc3\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u767b\u5165\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u53d6\u5f97\u514d\u8cbb\u5e33\u6236\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "th_TH": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u0e02\u0e49\u0e2d\u0e1c\u0e34\u0e14\u0e1e\u0e25\u0e32\u0e14 (4xx)\u003c/h1\u003e \u0e40\u0e23\u0e32\u0e44\u0e21\u0e48\u0e1e\u0e1a\u0e2b\u0e19\u0e49\u0e32\u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e2b\u0e32 \u003cdiv class=\"not-found--links\"\u003e \u0e19\u0e35\u0e48\u0e04\u0e37\u0e2d\u0e1a\u0e32\u0e07\u0e25\u0e34\u0e07\u0e01\u0e4c\u0e17\u0e35\u0e48\u0e2d\u0e32\u0e08\u0e40\u0e1b\u0e47\u0e19\u0e1b\u0e23\u0e30\u0e42\u0e22\u0e0a\u0e19\u0e4c: \u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u0e2b\u0e19\u0e49\u0e32\u0e2b\u0e25\u0e31\u0e01\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e04\u0e27\u0e32\u0e21\u0e0a\u0e48\u0e27\u0e22\u0e40\u0e2b\u0e25\u0e37\u0e2d\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u0e25\u0e07\u0e0a\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u0e23\u0e31\u0e1a\u0e1a\u0e31\u0e0d\u0e0a\u0e35\u0e1f\u0e23\u0e35\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "pt_BR": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eErro (4xx)\u003c/h1\u003e N\u00e3o encontramos a p\u00e1gina que voc\u00ea est\u00e1 procurando. \u003cdiv class=\"not-found--links\"\u003e Aqui est\u00e3o alguns links para informa\u00e7\u00f5es que podem ser \u00fateis: \u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eP\u00e1gina inicial\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentral de ajuda\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAcessar\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObter uma conta gratuita\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "zh_CN": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u9519\u8bef (4xx)\u003c/h1\u003e\u6211\u4eec\u65e0\u6cd5\u627e\u5230\u60a8\u6b63\u5728\u5bfb\u627e\u7684\u9875\u9762\u3002\u003cdiv class=\"not-found--links\"\u003e\u4ee5\u4e0b\u51e0\u4e2a\u94fe\u63a5\u53ef\u80fd\u4f1a\u6709\u6240\u5e2e\u52a9\uff1a\u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u9996\u9875\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u5e2e\u52a9\u4e2d\u5fc3\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u767b\u5f55\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u83b7\u53d6\u514d\u8d39\u5e10\u6237\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Pro\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "da_DK": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFejl (4xx)\u003c/h1\u003e Vi kan ikke finde den \u00f8nskede side. \u003cdiv class=\"not-found--links\"\u003e Du kan m\u00e5ske bruge disse links: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStartside\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHj\u00e6lpecenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eLog p\u00e5\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eOpret en gratis konto\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "de": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFehler (4xx)\u003c/h1\u003e Die gew\u00fcnschte Seite wurde nicht gefunden. \u003cdiv class=\"not-found--links\"\u003e Hier sind einige Links, die Ihnen vielleicht weiterhelfen: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStart\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHilfecenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAnmelden\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eKostenloses Konto erstellen\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "ko": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003e\uc624\ub958(4xx)\u003c/h1\u003e \ud574\ub2f9 \ud398\uc774\uc9c0\ub97c \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \u003cdiv class=\"not-found--links\"\u003e \uc544\ub798\uc5d0 \uba87 \uac00\uc9c0 \uc720\uc6a9\ud55c \ub9c1\ud06c\uac00 \ub098\uc640 \uc788\uc2b5\ub2c8\ub2e4. \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\ud648\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\ub3c4\uc6c0\ub9d0 \uc13c\ud130\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\ub85c\uadf8\uc778\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\ubb34\ub8cc \uacc4\uc815 \uc5bb\uae30\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "it": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eErrore (4xx)\u003c/h1\u003e Non troviamo la pagina che stai cercando. \u003cdiv class=\"not-found--links\"\u003e Ecco alcuni link che potrebbero essere utili: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHomepage\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentro assistenza\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAccedi\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eOttieni un account gratuito\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "ja": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u30a8\u30e9\u30fc\uff084xx\uff09\u003c/h1\u003e\u304a\u63a2\u3057\u306e\u30da\u30fc\u30b8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002\u003cdiv class=\"not-found--links\"\u003e\u3053\u3061\u3089\u306e\u30ea\u30f3\u30af\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002\u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u30db\u30fc\u30e0\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u30d8\u30eb\u30d7\u30bb\u30f3\u30bf\u30fc\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u30ed\u30b0\u30a4\u30f3\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u7121\u6599\u30a2\u30ab\u30a6\u30f3\u30c8\u4f5c\u6210\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "uk_UA": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003e\u041f\u043e\u043c\u0438\u043b\u043a\u0430 (4xx)\u003c/h1\u003e \u041d\u0430\u043c \u043d\u0435 \u0432\u0434\u0430\u0454\u0442\u044c\u0441\u044f \u0437\u043d\u0430\u0439\u0442\u0438 \u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0443, \u044f\u043a\u0443 \u0432\u0438 \u0448\u0443\u043a\u0430\u0454\u0442\u0435. \u003cdiv class=\"not-found--links\"\u003e \u041d\u0438\u0436\u0447\u0435 \u043d\u0430\u0432\u0435\u0434\u0435\u043d\u043e \u043a\u0456\u043b\u044c\u043a\u0430 \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u0445 \u043f\u043e\u0441\u0438\u043b\u0430\u043d\u044c: \u003cul\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003e\u0414\u043e\u043c\u0430\u0448\u043d\u044f \u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0430\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003e\u0426\u0435\u043d\u0442\u0440 \u0434\u043e\u0432\u0456\u0434\u043a\u0438\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003e\u0412\u0445\u0456\u0434\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003e\u041e\u0442\u0440\u0438\u043c\u0430\u043d\u043d\u044f \u0431\u0435\u0437\u043a\u043e\u0448\u0442\u043e\u0432\u043d\u043e\u0457 \u043e\u0431\u043b\u0456\u043a\u043e\u0432\u043a\u0438\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "nl_NL": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFout (4xx)\u003c/h1\u003e We kunnen de pagina die je zoekt niet vinden. \u003cdiv class=\"not-found--links\"\u003e Hier zijn een paar handige links: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStartpagina\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHelpcentrum\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eAanmelden\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eEen gratis account maken\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "pl": "\u003cdiv class=\"not-found\"\u003e\u003ch1\u003eB\u0142\u0105d (4xx)\u003c/h1\u003e Nie mo\u017cemy znale\u017a\u0107 strony, kt\u00f3rej szukasz. \u003cdiv class=\"not-found--links\"\u003e Oto kilka \u0142\u0105czy, kt\u00f3re mog\u0105 si\u0119 przyda\u0107: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eStrona g\u0142\u00f3wna\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentrum pomocy\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eZaloguj si\u0119\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eUzyskaj bezp\u0142atne konto\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e", "sv_SE": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFel (4xx)\u003c/h1\u003e Det g\u00e5r inte att hitta sidan du letar efter. \u003cdiv class=\"not-found--links\"\u003e H\u00e4r \u00e4r n\u00e5gra l\u00e4nkar som kan vara till hj\u00e4lp. \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHem\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHj\u00e4lpcenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eLogga in\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eSkaffa gratiskonto\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "en_GB": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eError (4xx)\u003c/h1\u003e We can't find the page you're looking for. \u003cdiv class=\"not-found--links\"\u003e Here are a few links that may be helpful: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHome\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHelp Centre\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eSign in\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eGet a free account\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "ms": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eRalat (4xx)\u003c/h1\u003e Kami tidak menemui halaman yang anda cari. \u003cdiv class=\"not-found--links\"\u003e Ini beberapa pautan yang boleh membantu: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eUtama\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003ePusat bantuan\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eDaftar masuk\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eDapatkan akaun percuma\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "es_ES": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eError (4xx)\u003c/h1\u003e No hemos encontrado la p\u00e1gina que est\u00e1s buscando. \u003cdiv class=\"not-found--links\"\u003e Aqu\u00ed tienes algunos enlaces que tal vez puedan ayudarte: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eInicio\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentro de ayuda\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eIniciar sesi\u00f3n\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObtener una cuenta gratis\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "nb_NO": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eFeil (4xx)\u003c/h1\u003e Vi finner ikke siden du leter etter. \u003cdiv class=\"not-found--links\"\u003e Her er noen koblinger som kanskje kan hjelpe deg: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eHjem\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eHjelpesenter\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eLogg p\u00e5\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eF\u00e5 en gratis konto\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "id": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eKesalahan (4xx)\u003c/h1\u003e Kami tidak dapat menemukan halaman yang Anda cari. \u003cdiv class=\"not-found--links\"\u003e Berikut beberapa tautan yang mungkin bisa membantu: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eBeranda\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003ePusat bantuan\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eMasuk\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eDapatkan akun gratis\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e", "es": "\u003cdiv class=\"not-found\"\u003e \u003ch1\u003eError (4xx)\u003c/h1\u003e No hemos encontrado la p\u00e1gina que est\u00e1s buscando. \u003cdiv class=\"not-found--links\"\u003e Aqu\u00ed tienes algunos enlaces que tal vez puedan ayudarte: \u003cul\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/home?_tk=fof\"\u003eInicio\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/help?_tk=fof\"\u003eCentro de ayuda\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/login?_tk=fof\"\u003eIniciar sesi\u00f3n\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/register?_tk=fof\"\u003eObtener una cuenta gratis\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/plus?_tk=fof\"\u003eDropbox Plus\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"https://www.dropbox.com/business?_tk=fof\"\u003eDropbox Business\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/div\u003e \u003c/div\u003e"};
+function read_cookie (name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1, c.length);
+            }
+            if (c.indexOf(nameEQ) === 0) {
+                return c.substring(nameEQ.length, c.length);
+            }
+        }
+        return null;
+}
+function localize() {
+    var locale = read_cookie('locale');
+    if (locale) {
+       var msg = message[locale];
+       if (msg) {
+           var elem = document.getElementById('errorbox');
+           if (elem) {
+               elem.innerHTML = msg;
+           }
+       }
+    }
+}
+localize();
+</script>
+
+</body>
+</html>
+
+0345.122 (0) Dropbox: Attempt to upload: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip to: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip
+0348.545 (0) The scheduled resumption is within 45 seconds - will reschedule
+0348.547 (0) Rescheduling resumption 1: moving to 437 seconds from now (1512419408)
+0348.551 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 392 + 45 = 437
+0348.552 (0) Dropbox chunked upload: 47.4 % uploaded (AAAAAAAAAMfWHOQnoUGLdQ, 10485760, 10240 KB)
+0353.250 (0) Dropbox chunked upload: 94.9 % uploaded (AAAAAAAAAMfWHOQnoUGLdQ, 20971520, 10240 KB)
+0354.861 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAMfWHOQnoUGLdQ, 22099257, 10240 KB)
+0356.557 (0) Recording as successfully uploaded: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip (2379e0d5e3d49c9eb867fb1a705fb4ee)
+0356.583 (0) Deleting local file: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip: OK
+0356.585 (0) Dropbox: File upload success (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip): 21581 KB in 11s (1882 KB/s)
+0356.822 (0) Dropbox quota usage: used=1048.6 MB, total=2048 MB, available=999.4 MB
+0356.824 (0) Dropbox: Attempt to upload: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz to: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz
+0360.073 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAMiJzzztCDKwjA, 7074084, 10240 KB)
+0363.016 (0) Recording as successfully uploaded: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz (c98149991ac0292e4b9e70ce1193c46b)
+0363.023 (0) Deleting local file: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz: OK
+0363.024 (0) Dropbox: File upload success (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz): 6908 KB in 6s (1114 KB/s)
+0363.026 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0363.028 (0) Number of backup sets in history: 3; groups (db): 1
+0363.029 (0) Examining (for databases) backup set with group_id=0, nonce=39cbf6543a87, datestamp=1512418622 (Dec 04 2017 20:17:02)
+0363.030 (0) This backup set is the backup set just made, so will not be deleted.
+0363.031 (0) Examining (for databases) backup set with group_id=0, nonce=3a3e81b159c4, datestamp=1511813915 (Nov 27 2017 20:18:35)
+0363.032 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0363.032 (0) Examining (for databases) backup set with group_id=0, nonce=f7fc75219695, datestamp=1511209212 (Nov 20 2017 20:20:12)
+0363.033 (0) 1511209212: db: this set includes a database (backup_2017-11-20-2020_Eye_Associates_f7fc75219695-db.gz); db count is now 2
+0363.034 (0) 1511209212: db: over retain limit (2); will delete this database
+0363.035 (0) Delete file: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-db.gz, service=dropbox
+0363.036 (0) Dropbox: request deletion: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-db.gz
+0363.946 (0) Dropbox: delete succeeded
+0363.949 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0363.950 (0) Number of backup sets in history: 3; groups (files): 1
+0363.950 (0) Examining (for files) backup set with nonce=39cbf6543a87, datestamp=1512418622 (Dec 04 2017 20:17:02)
+0363.951 (0) This backup set is the backup set just made, so will not be deleted.
+0363.952 (0) This backup set is the backup set just made, so will not be deleted.
+0363.953 (0) This backup set is the backup set just made, so will not be deleted.
+0363.953 (0) This backup set is the backup set just made, so will not be deleted.
+0363.953 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0363.954 (0) Examining (for files) backup set with nonce=3a3e81b159c4, datestamp=1511813915 (Nov 27 2017 20:18:35)
+0363.955 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0363.956 (0) Examining (for files) backup set with nonce=f7fc75219695, datestamp=1511209212 (Nov 20 2017 20:20:12)
+0363.957 (0) plugins: over retain limit (2); will delete this file entity
+0363.958 (0) themes: over retain limit (2); will delete this file entity
+0363.959 (0) uploads: over retain limit (2); will delete this file entity
+0363.960 (0) others: over retain limit (2); will delete this file entity
+0363.961 (0) Delete file: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-plugins.zip, service=dropbox
+0363.962 (0) Delete file: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-themes.zip, service=dropbox
+0363.963 (0) Delete file: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-uploads.zip, service=dropbox
+0363.964 (0) Delete file: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-others.zip, service=dropbox
+0363.965 (0) Dropbox: request deletion: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-plugins.zip
+0364.752 (0) Dropbox: delete succeeded
+0364.757 (0) Dropbox: request deletion: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-themes.zip
+0365.506 (0) Dropbox: delete succeeded
+0365.509 (0) Dropbox: request deletion: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-uploads.zip
+0366.244 (0) Dropbox: delete succeeded
+0366.246 (0) Dropbox: request deletion: backup_2017-11-20-2020_Eye_Associates_f7fc75219695-others.zip
+0367.216 (0) Dropbox: delete succeeded
+0367.221 (0) This backup set is now empty; will remove from history
+0367.222 (0) Deleting log file (log.f7fc75219695.txt)
+0367.321 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0367.327 (0) Resume backup (39cbf6543a87, 0): finish run
+0367.330 (0) Decremented the semaphore (fd) by 1
+0367.332 (0) Semaphore (fd) unlocked
+0367.333 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0367.338 (0) Rescheduling resumption 1: moving to 120 seconds from now (1512419110)
+0367.341 (0) No email will/can be sent - the user has not configured an email address.
+0367.342 (0) The backup has not finished; a resumption is scheduled
+0727.928 (1) Opened log file at time: Mon, 04 Dec 2017 20:29:10 +0000 on http://www.seetheclarity.com
+0727.928 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 3.9.2 PHP: 5.6.32 (cgi-fcgi, Linux box999.bluehost.com 3.10.0-614.10.2.lve1.4.50.el6h.x86_64 #1 SMP Mon May 22 17:31:11 EDT 2017 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0728.083 (1) Free space on disk containing Updraft's temporary directory: 657589.4 MB
+0728.086 (1) Backup run: resumption=1, nonce=39cbf6543a87, begun at=1512418622 (729s ago), job type=backup, previous check-in=367.2s
+0728.088 (1) Scheduling a resumption (2) after 437 seconds (1512419788) in case this run gets aborted
+0728.099 (1) Checking if we have a zip executable available
+0728.100 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0728.100 (1) Creation of backups of directories: already finished
+0728.101 (1) Saving backup status to database (elements: 8)
+0728.104 (1) Database dump (WordPress DB): Creation was completed already
+0728.107 (1) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-plugins.zip: plugins: This file has already been successfully uploaded
+0728.108 (1) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-themes.zip: themes: This file has already been successfully uploaded
+0728.109 (1) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0728.109 (1) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-others.zip: others: This file has already been successfully uploaded
+0728.110 (1) backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-db.gz: db: This file has already been successfully uploaded
+0728.111 (1) Saving backup history. Total backup size: Unknown
+0728.113 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0728.115 (1) Cloud backup selection (1/1): dropbox (last)
+0728.116 (1) Beginning dispatch of backup to remote (dropbox)
+0728.117 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0728.122 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+0728.466 (1) Dropbox quota usage: used=602.3 MB, total=2048 MB, available=1445.7 MB
+0728.469 (1) This is a resumption: 304087040 bytes had already been uploaded
+0728.470 (1) Dropbox: Attempt to upload: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip to: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip
+0733.274 (1) Dropbox chunked upload: 80.8 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 314572800, 10240 KB)
+0737.439 (1) Dropbox chunked upload: 83.5 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 325058560, 10240 KB)
+0742.650 (1) Dropbox chunked upload: 86.2 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 335544320, 10240 KB)
+0746.794 (1) Dropbox chunked upload: 88.9 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 346030080, 10240 KB)
+0752.415 (1) Dropbox chunked upload: 91.6 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 356515840, 10240 KB)
+0757.802 (1) Dropbox chunked upload: 94.3 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 367001600, 10240 KB)
+0763.314 (1) Dropbox chunked upload: 97 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 377487360, 10240 KB)
+0767.348 (1) Dropbox chunked upload: 99.7 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 387973120, 10240 KB)
+0770.775 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAMaadQ0l8M77tw, 389237883, 10240 KB)
+0774.015 (1) Recording as successfully uploaded: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip (6652a63ed218876c0915b415343886b4)
+0774.216 (1) Deleting local file: backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip: OK
+0774.217 (1) Dropbox: File upload success (backup_2017-12-04-2017_Eye_Associates_39cbf6543a87-uploads.zip): 380115 KB in 45s (8308 KB/s)
+0774.221 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0774.223 (1) Number of backup sets in history: 2; groups (db): 1
+0774.226 (1) Examining (for databases) backup set with group_id=0, nonce=39cbf6543a87, datestamp=1512418622 (Dec 04 2017 20:17:02)
+0774.227 (1) This backup set is the backup set just made, so will not be deleted.
+0774.228 (1) Examining (for databases) backup set with group_id=0, nonce=3a3e81b159c4, datestamp=1511813915 (Nov 27 2017 20:18:35)
+0774.230 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0774.231 (1) Number of backup sets in history: 2; groups (files): 1
+0774.232 (1) Examining (for files) backup set with nonce=39cbf6543a87, datestamp=1512418622 (Dec 04 2017 20:17:02)
+0774.233 (1) This backup set is the backup set just made, so will not be deleted.
+0774.234 (1) This backup set is the backup set just made, so will not be deleted.
+0774.235 (1) This backup set is the backup set just made, so will not be deleted.
+0774.235 (1) This backup set is the backup set just made, so will not be deleted.
+0774.235 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0774.237 (1) Examining (for files) backup set with nonce=3a3e81b159c4, datestamp=1511813915 (Nov 27 2017 20:18:35)
+0774.238 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0774.239 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0774.244 (1) Resume backup (39cbf6543a87, 1): finish run
+0774.246 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0774.251 (1) No email will/can be sent - the user has not configured an email address.
+0774.252 (1) The backup apparently succeeded and is now complete
