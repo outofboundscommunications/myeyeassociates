@@ -253,7 +253,7 @@
 							$location_appointment_url = get_field('location_appointment_url');
 							if( $location_appointment_url ){
 								?>
-								<a href="<?php echo $location_appointment_url;?>" class="ea-btn-large" style="background-color:#A5C73C;" target="_blank">book appointment</a>
+								<a href="<?php echo $location_appointment_url;?>" class="ea-btn-large" style="background-color:#A5C73C;" target="_blank">request appointment</a>
 								<?php
 							}
 							?>

@@ -330,7 +330,7 @@ function appointments_address_func($params){
 									$location_appointment_url = '#';
 								}
 								?>
-								<a style="background-color:#CACACA;" class="ea-btn-large" href="<?php echo $location_appointment_url;?>" target="_blank">book appointment</a><br />
+								<a style="background-color:#CACACA;" class="ea-btn-large" href="<?php echo $location_appointment_url;?>" target="_blank">request appointment</a><br />
 							</div>
 							<div class="address_title">
 								<h2>
@@ -381,7 +381,7 @@ function appointments_address_func($params){
 								$location_appointment_url2 = '#';
 							}
 							?>
-							<a style="background-color:#CACACA;" class="ea-btn-large" href="<?php echo $location_appointment_url2;?>" target="_blank">book appointment</a>
+							<a style="background-color:#CACACA;" class="ea-btn-large" href="<?php echo $location_appointment_url2;?>" target="_blank">request appointment</a>
 						</div>
 						<div class="address_title">
 							<h2>
