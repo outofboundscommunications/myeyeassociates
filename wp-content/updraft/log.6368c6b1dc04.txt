@@ -1,0 +1,705 @@
+0000.002 (0) Opened log file at time: Tue, 09 Jan 2018 09:23:31 +0000 on http://localhost/myeyeassociates
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 3.9.2 PHP: 5.6.25 (apache2handler, Windows NT KEYUR-LAP 10.0 build 16299 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54M | 55.3M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 95406.9 MB
+0000.025 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.027 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.035 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1514837846, seconds_ago=651965)
+0000.060 (0) Set semaphore last lock (fd) time to 2018-01-09 09:23:31
+0000.063 (0) Semaphore lock (fd) complete
+0000.075 (0) Backup run: resumption=0, nonce=6368c6b1dc04, begun at=1515489811 (0s ago), job type=backup
+0000.084 (0) Scheduling a resumption (1) after 352 seconds (1515490163) in case this run gets aborted
+0000.111 (0) Checking if we have a zip executable available
+0000.119 (0) Creation of backups of directories: beginning
+0000.140 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0011.420 (0) Total entities for the zip file: 1034 directories, 8325 files (0 skipped as non-modified), 109.4 MB
+0011.477 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0011.625 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 100 files added (on-disk size: 167.8 KB)
+0011.790 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 200 files added (on-disk size: 167.8 KB)
+0011.936 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 300 files added (on-disk size: 167.8 KB)
+0012.071 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 400 files added (on-disk size: 167.8 KB)
+0012.258 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 500 files added (on-disk size: 167.8 KB)
+0012.264 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.3 MB, 8325 files batched, 501 (502) added so far); re-opening (prior size: 167.8 KB)
+0013.030 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 600 files added (on-disk size: 2371.6 KB)
+0013.301 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 700 files added (on-disk size: 2371.6 KB)
+0013.452 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 800 files added (on-disk size: 2371.6 KB)
+0013.604 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 900 files added (on-disk size: 2371.6 KB)
+0013.803 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1000 files added (on-disk size: 2371.6 KB)
+0013.809 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.6 MB, 8325 files batched, 501 (1003) added so far); re-opening (prior size: 2371.6 KB)
+0014.594 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1100 files added (on-disk size: 6051 KB)
+0014.772 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1200 files added (on-disk size: 6051 KB)
+0014.953 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1300 files added (on-disk size: 6051 KB)
+0015.133 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1400 files added (on-disk size: 6051 KB)
+0015.296 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1500 files added (on-disk size: 6051 KB)
+0015.303 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.9 MB, 8325 files batched, 501 (1504) added so far); re-opening (prior size: 6051 KB)
+0015.930 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1600 files added (on-disk size: 8212.4 KB)
+0016.058 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1700 files added (on-disk size: 8212.4 KB)
+0016.184 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1800 files added (on-disk size: 8212.4 KB)
+0016.314 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 1900 files added (on-disk size: 8212.4 KB)
+0016.464 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2000 files added (on-disk size: 8212.4 KB)
+0016.473 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.4 MB, 8325 files batched, 501 (2005) added so far); re-opening (prior size: 8212.4 KB)
+0017.534 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2100 files added (on-disk size: 13269.5 KB)
+0017.662 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2200 files added (on-disk size: 13269.5 KB)
+0017.805 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2300 files added (on-disk size: 13269.5 KB)
+0017.943 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2400 files added (on-disk size: 13269.5 KB)
+0018.109 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2500 files added (on-disk size: 13269.5 KB)
+0018.123 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.1 MB, 8325 files batched, 501 (2506) added so far); re-opening (prior size: 13269.5 KB)
+0020.271 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2600 files added (on-disk size: 17831.7 KB)
+0020.438 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2700 files added (on-disk size: 17831.7 KB)
+0020.613 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2800 files added (on-disk size: 17831.7 KB)
+0020.759 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 2900 files added (on-disk size: 17831.7 KB)
+0020.933 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3000 files added (on-disk size: 17831.7 KB)
+0020.948 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.9 MB, 8325 files batched, 501 (3007) added so far); re-opening (prior size: 17831.7 KB)
+0021.805 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3100 files added (on-disk size: 19850.2 KB)
+0021.994 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3200 files added (on-disk size: 19850.2 KB)
+0022.197 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3300 files added (on-disk size: 19850.2 KB)
+0022.395 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3400 files added (on-disk size: 19850.2 KB)
+0022.615 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3500 files added (on-disk size: 19850.2 KB)
+0022.633 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 8325 files batched, 501 (3508) added so far); re-opening (prior size: 19850.2 KB)
+0023.170 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3600 files added (on-disk size: 22454.9 KB)
+0023.342 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3700 files added (on-disk size: 22454.9 KB)
+0023.568 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3800 files added (on-disk size: 22454.9 KB)
+0023.806 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 3900 files added (on-disk size: 22454.9 KB)
+0024.048 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4000 files added (on-disk size: 22454.9 KB)
+0024.073 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 8325 files batched, 501 (4009) added so far); re-opening (prior size: 22454.9 KB)
+0025.397 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4100 files added (on-disk size: 24515.1 KB)
+0025.702 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4200 files added (on-disk size: 24515.1 KB)
+0025.966 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4300 files added (on-disk size: 24515.1 KB)
+0026.258 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4400 files added (on-disk size: 24515.1 KB)
+0026.658 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4500 files added (on-disk size: 24515.1 KB)
+0026.694 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 8325 files batched, 501 (4510) added so far); re-opening (prior size: 24515.1 KB)
+0027.399 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4600 files added (on-disk size: 25805.9 KB)
+0027.641 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4700 files added (on-disk size: 25805.9 KB)
+0027.887 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4800 files added (on-disk size: 25805.9 KB)
+0028.166 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 4900 files added (on-disk size: 25805.9 KB)
+0028.413 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5000 files added (on-disk size: 25805.9 KB)
+0028.441 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.5 MB, 8325 files batched, 501 (5011) added so far); re-opening (prior size: 25805.9 KB)
+0028.912 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5100 files added (on-disk size: 26145.4 KB)
+0029.082 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5200 files added (on-disk size: 26145.4 KB)
+0029.337 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5300 files added (on-disk size: 26145.4 KB)
+0029.677 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5400 files added (on-disk size: 26145.4 KB)
+0029.885 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5500 files added (on-disk size: 26145.4 KB)
+0029.917 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.8 MB, 8325 files batched, 501 (5512) added so far); re-opening (prior size: 26145.4 KB)
+0030.856 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5600 files added (on-disk size: 29667.9 KB)
+0031.051 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5700 files added (on-disk size: 29667.9 KB)
+0031.304 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5800 files added (on-disk size: 29667.9 KB)
+0031.614 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 5900 files added (on-disk size: 29667.9 KB)
+0031.915 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6000 files added (on-disk size: 29667.9 KB)
+0031.951 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18.5 MB, 8325 files batched, 501 (6013) added so far); re-opening (prior size: 29667.9 KB)
+0034.551 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6100 files added (on-disk size: 34719.5 KB)
+0034.831 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6200 files added (on-disk size: 34719.5 KB)
+0035.149 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6300 files added (on-disk size: 34719.5 KB)
+0035.438 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6400 files added (on-disk size: 34719.5 KB)
+0035.744 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6500 files added (on-disk size: 34719.5 KB)
+0035.782 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 8325 files batched, 501 (6514) added so far); re-opening (prior size: 34719.5 KB)
+0036.435 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6600 files added (on-disk size: 35408.5 KB)
+0036.729 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6700 files added (on-disk size: 35408.5 KB)
+0036.993 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6800 files added (on-disk size: 35408.5 KB)
+0037.274 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 6900 files added (on-disk size: 35408.5 KB)
+0037.495 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7000 files added (on-disk size: 35408.5 KB)
+0037.528 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.1 MB, 8325 files batched, 501 (7015) added so far); re-opening (prior size: 35408.5 KB)
+0038.687 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7100 files added (on-disk size: 36970.3 KB)
+0038.904 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7200 files added (on-disk size: 36970.3 KB)
+0039.161 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7300 files added (on-disk size: 36970.3 KB)
+0039.418 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7400 files added (on-disk size: 36970.3 KB)
+0039.663 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7500 files added (on-disk size: 36970.3 KB)
+0039.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.5 MB, 8325 files batched, 501 (7516) added so far); re-opening (prior size: 36970.3 KB)
+0040.703 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7600 files added (on-disk size: 38556.9 KB)
+0040.925 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7700 files added (on-disk size: 38556.9 KB)
+0041.151 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7800 files added (on-disk size: 38556.9 KB)
+0041.383 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 7900 files added (on-disk size: 38556.9 KB)
+0041.596 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 8000 files added (on-disk size: 38556.9 KB)
+0041.632 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 8325 files batched, 501 (8017) added so far); re-opening (prior size: 38556.9 KB)
+0042.469 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 8100 files added (on-disk size: 40143.7 KB)
+0042.695 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 8200 files added (on-disk size: 40143.7 KB)
+0042.909 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip.tmp: 8300 files added (on-disk size: 40143.7 KB)
+0044.449 (0) Created plugins zip (0) - 42919.2 KB in 44.3 s (968.8 KB/s) (sha1: 1b5bb8fd96f4254d2640f6b59c025702fba1a19c, sha256: 14f22bea0570677f053d238f55e3f767146441f4e22c44f6ccb78bcd5001dd49)
+0044.457 (0) Beginning creation of dump of themes (split every: 400 MB)
+0045.140 (0) Total entities for the zip file: 120 directories, 820 files (0 skipped as non-modified), 20.3 MB
+0045.332 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0045.498 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0045.608 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0045.722 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0045.882 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0045.886 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.8 MB, 820 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0047.193 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 600 files added (on-disk size: 10399.4 KB)
+0047.308 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 700 files added (on-disk size: 10399.4 KB)
+0047.403 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip.tmp: 800 files added (on-disk size: 10399.4 KB)
+0048.007 (0) Created themes zip (0) - 13755 KB in 3.5 s (3881.7 KB/s) (sha1: b5f18ec735f4f5f138a6b9422c6be8ff60e9475d, sha256: 98bd69085d9dfdb0b2b41a46c31492364126a4371e40a10c389237e0b2752c6a)
+0048.017 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0048.020 (0) Looking for candidates to back up in: D:\wamp64\www\myeyeassociates/wp-content/uploads
+0048.022 (0) finding files: 2018: adding to list (1)
+0048.024 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0048.036 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0048.049 (0) Created uploads zip (0) - 0.2 KB in 0 s (12.2 KB/s) (sha1: 1a2c68633e1cee965735a5749a887d8a1c2735f5, sha256: 0a246ef21f5be5505405d3e74bfd6370dca4766ecbf5db11196a8521d6970ec7)
+0048.057 (0) Beginning backup of other directories found in the content directory (index: 0)
+0048.058 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0048.061 (0) Looking for candidates to back up in: D:\wamp64\www\myeyeassociates/wp-content
+0048.063 (0) finding files: .htaccess: adding to list (1)
+0048.065 (0) finding files: .htaccess.suspend.1412251781: adding to list (2)
+0048.067 (0) finding files: 400.shtml: adding to list (3)
+0048.070 (0) finding files: 401.shtml: adding to list (4)
+0048.073 (0) finding files: 403.shtml: adding to list (5)
+0048.077 (0) finding files: 404.shtml: adding to list (6)
+0048.079 (0) finding files: 500.php: adding to list (7)
+0048.081 (0) finding files: 500.shtml: adding to list (8)
+0048.083 (0) finding files: cache: skipping: excluded by options
+0048.085 (0) finding files: default.html: adding to list (9)
+0048.087 (0) finding files: favicon.ico: adding to list (10)
+0048.089 (0) finding files: index.php: adding to list (11)
+0048.090 (0) finding files: mu-plugins: adding to list (12)
+0048.092 (0) finding files: plugins: skipping: this is the plugins directory
+0048.094 (0) finding files: plugins_inactive: adding to list (13)
+0048.096 (0) finding files: themes: skipping: this is the themes directory
+0048.098 (0) finding files: updraft: skipping: this is the updraft directory
+0048.100 (0) finding files: uploads: skipping: this is the uploads directory
+0048.102 (0) finding files: w3tc-config: adding to list (14)
+0048.104 (0) finding files: w3tc-config123: adding to list (15)
+0048.106 (0) finding files: wp-cache-config.php.bak: adding to list (16)
+0049.479 (0) Total entities for the zip file: 239 directories, 1344 files (0 skipped as non-modified), 16.8 MB
+0049.571 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0049.725 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0049.848 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0050.026 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0050.151 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0050.154 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.8 MB, 1344 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0050.786 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 600 files added (on-disk size: 2863.7 KB)
+0050.892 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 700 files added (on-disk size: 2863.7 KB)
+0051.014 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 800 files added (on-disk size: 2863.7 KB)
+0051.131 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 900 files added (on-disk size: 2863.7 KB)
+0051.253 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 1000 files added (on-disk size: 2863.7 KB)
+0051.258 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.6 MB, 1344 files batched, 501 (1002) added so far); re-opening (prior size: 2863.7 KB)
+0051.852 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 1100 files added (on-disk size: 5115.7 KB)
+0051.983 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 1200 files added (on-disk size: 5115.7 KB)
+0052.104 (0) Zip: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip.tmp: 1300 files added (on-disk size: 5115.7 KB)
+0052.777 (0) Created others zip (0) - 7003.5 KB in 4.7 s (1501.3 KB/s) (sha1: d8023310bdf24ca427d799f3f2b24becfc070cb4, sha256: a4bc74eb56b847c803089399e02d64894e987257cda7e7a370803e5b6bb59e9e)
+0052.791 (0) Saving backup status to database (elements: 8)
+0052.796 (0) Beginning creation of database dump (WordPress DB)
+0052.963 (0) Testing: C:\Program Files\MySQL\MySQL Workbench 6.3 CE\mysqldump.exe
+0053.402 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `eyeasso_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */ (truncated - 1116 bytes total)
+0053.453 (0) Binary mysqldump: error (code: 2)
+0053.495 (0) Table eyeasso_options: Total expected rows (approximate): 742
+0053.628 (0) Table eyeasso_options: Total rows added: 738 in 0.13 seconds
+0053.631 (0) Table eyeasso_options: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_options.table.gz - 271.2 KB)
+0053.642 (0) Table eyeasso_users: Total expected rows (approximate): 5
+0053.648 (0) Table eyeasso_users: Total rows added: 5 in 0.00 seconds
+0053.651 (0) Table eyeasso_users: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_users.table.gz - 0.8 KB)
+0053.661 (0) Table eyeasso_usermeta: Total expected rows (approximate): 128
+0053.672 (0) Table eyeasso_usermeta: Total rows added: 128 in 0.01 seconds
+0053.675 (0) Table eyeasso_usermeta: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_usermeta.table.gz - 2.9 KB)
+0053.684 (0) Table eyeasso_commentmeta: Total expected rows (approximate): 65
+0053.693 (0) Table eyeasso_commentmeta: Total rows added: 65 in 0.01 seconds
+0053.697 (0) Table eyeasso_commentmeta: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_commentmeta.table.gz - 6.4 KB)
+0053.708 (0) Table eyeasso_comments: Total expected rows (approximate): 29
+0053.718 (0) Table eyeasso_comments: Total rows added: 29 in 0.01 seconds
+0053.722 (0) Table eyeasso_comments: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_comments.table.gz - 7.3 KB)
+0053.731 (0) Table eyeasso_links: Total expected rows (approximate): 0
+0053.736 (0) Table eyeasso_links: Total rows added: 0 in 0.00 seconds
+0053.739 (0) Table eyeasso_links: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_links.table.gz - 0.4 KB)
+0053.750 (0) Table eyeasso_postmeta: Total expected rows (approximate): 25595
+0055.106 (0) Table eyeasso_postmeta: Total rows added: 25595 in 1.35 seconds
+0055.110 (0) Table eyeasso_postmeta: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_postmeta.table.gz - 376.5 KB)
+0055.120 (0) Table eyeasso_posts: Total expected rows (approximate): 1264
+0055.473 (0) Table eyeasso_posts: Total rows added: 1264 in 0.35 seconds
+0055.476 (0) Table eyeasso_posts: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_posts.table.gz - 143.1 KB)
+0055.486 (0) Table eyeasso_term_relationships: Total expected rows (approximate): 152
+0055.495 (0) Table eyeasso_term_relationships: Total rows added: 152 in 0.01 seconds
+0055.497 (0) Table eyeasso_term_relationships: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_term_relationships.table.gz - 0.8 KB)
+0055.509 (0) Table eyeasso_term_taxonomy: Total expected rows (approximate): 150
+0055.523 (0) Table eyeasso_term_taxonomy: Total rows added: 150 in 0.01 seconds
+0055.526 (0) Table eyeasso_term_taxonomy: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_term_taxonomy.table.gz - 1.5 KB)
+0055.537 (0) Table eyeasso_terms: Total expected rows (approximate): 150
+0055.552 (0) Table eyeasso_terms: Total rows added: 150 in 0.01 seconds
+0055.556 (0) Table eyeasso_terms: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_terms.table.gz - 2.2 KB)
+0055.568 (0) Table eyeasso_cf7dbplugin_st: Total expected rows (approximate): 68
+0055.574 (0) Table eyeasso_cf7dbplugin_st: Total rows added: 68 in 0.00 seconds
+0055.577 (0) Table eyeasso_cf7dbplugin_st: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_cf7dbplugin_st.table.gz - 0.9 KB)
+0055.589 (0) Table eyeasso_cf7dbplugin_submits: Total expected rows (approximate): 800
+0055.967 (0) Table eyeasso_cf7dbplugin_submits: Total rows added: 800 in 0.38 seconds
+0055.970 (0) Table eyeasso_cf7dbplugin_submits: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_cf7dbplugin_submits.table.gz - 3355.8 KB)
+0055.984 (0) Table eyeasso_cn_social_icon: Total expected rows (approximate): 0
+0055.988 (0) Table eyeasso_cn_social_icon: Total rows added: 0 in 0.00 seconds
+0055.991 (0) Table eyeasso_cn_social_icon: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_cn_social_icon.table.gz - 0.3 KB)
+0056.002 (0) Table eyeasso_duplicator_packages: Total expected rows (approximate): 7
+0056.007 (0) Table eyeasso_duplicator_packages: Total rows added: 7 in 0.00 seconds
+0056.011 (0) Table eyeasso_duplicator_packages: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_duplicator_packages.table.gz - 1.5 KB)
+0056.021 (0) Table eyeasso_funbox: Total expected rows (approximate): 2
+0056.028 (0) Table eyeasso_funbox: Total rows added: 2 in 0.01 seconds
+0056.032 (0) Table eyeasso_funbox: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_funbox.table.gz - 1.3 KB)
+0056.042 (0) Table eyeasso_itsec_lockouts: Total expected rows (approximate): 0
+0056.046 (0) Table eyeasso_itsec_lockouts: Total rows added: 0 in 0.00 seconds
+0056.049 (0) Table eyeasso_itsec_lockouts: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_itsec_lockouts.table.gz - 0.4 KB)
+0056.059 (0) Table eyeasso_itsec_log: Total expected rows (approximate): 0
+0056.063 (0) Table eyeasso_itsec_log: Total rows added: 0 in 0.00 seconds
+0056.066 (0) Table eyeasso_itsec_log: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_itsec_log.table.gz - 0.4 KB)
+0056.076 (0) Table eyeasso_itsec_temp: Total expected rows (approximate): 0
+0056.080 (0) Table eyeasso_itsec_temp: Total rows added: 0 in 0.00 seconds
+0056.082 (0) Table eyeasso_itsec_temp: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_itsec_temp.table.gz - 0.4 KB)
+0056.093 (0) Table eyeasso_layerslider: Total expected rows (approximate): 0
+0056.096 (0) Table eyeasso_layerslider: Total rows added: 0 in 0.00 seconds
+0056.099 (0) Table eyeasso_layerslider: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_layerslider.table.gz - 0.3 KB)
+0056.109 (0) Table eyeasso_redirection_404: Total expected rows (approximate): 89757
+0064.038 (0) Table eyeasso_redirection_404: Total rows added: 89757 in 7.93 seconds
+0064.041 (0) Table eyeasso_redirection_404: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_404.table.gz - 2172.1 KB)
+0064.052 (0) Table eyeasso_redirection_groups: Total expected rows (approximate): 2
+0064.056 (0) Table eyeasso_redirection_groups: Total rows added: 2 in 0.00 seconds
+0064.059 (0) Table eyeasso_redirection_groups: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_groups.table.gz - 0.4 KB)
+0064.069 (0) Table eyeasso_redirection_items: Total expected rows (approximate): 57
+0064.081 (0) Table eyeasso_redirection_items: Total rows added: 57 in 0.01 seconds
+0064.084 (0) Table eyeasso_redirection_items: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_items.table.gz - 2.3 KB)
+0064.094 (0) Table eyeasso_redirection_logs: Total expected rows (approximate): 27341
+0067.937 (0) Table eyeasso_redirection_logs: Total rows added: 27341 in 3.84 seconds
+0067.940 (0) Table eyeasso_redirection_logs: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_logs.table.gz - 748 KB)
+0067.951 (0) Table eyeasso_redirection_modules: Total expected rows (approximate): 2
+0067.956 (0) Table eyeasso_redirection_modules: Total rows added: 2 in 0.00 seconds
+0067.959 (0) Table eyeasso_redirection_modules: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_modules.table.gz - 0.4 KB)
+0067.969 (0) Table eyeasso_revslider_css: Total expected rows (approximate): 109
+0067.984 (0) Table eyeasso_revslider_css: Total rows added: 109 in 0.01 seconds
+0067.988 (0) Table eyeasso_revslider_css: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_css.table.gz - 4.9 KB)
+0067.997 (0) Table eyeasso_revslider_layer_animations: Total expected rows (approximate): 0
+0068.002 (0) Table eyeasso_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0068.004 (0) Table eyeasso_revslider_layer_animations: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_layer_animations.table.gz - 0.3 KB)
+0068.061 (0) Table eyeasso_revslider_navigations: Total expected rows (approximate): 0
+0068.071 (0) Table eyeasso_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0068.077 (0) Table eyeasso_revslider_navigations: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_navigations.table.gz - 0.3 KB)
+0068.091 (0) Table eyeasso_revslider_settings: Total expected rows (approximate): 1
+0068.095 (0) Table eyeasso_revslider_settings: Total rows added: 1 in 0.00 seconds
+0068.098 (0) Table eyeasso_revslider_settings: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_settings.table.gz - 0.3 KB)
+0068.110 (0) Table eyeasso_revslider_sliders: Total expected rows (approximate): 3
+0068.115 (0) Table eyeasso_revslider_sliders: Total rows added: 3 in 0.00 seconds
+0068.119 (0) Table eyeasso_revslider_sliders: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_sliders.table.gz - 3.5 KB)
+0068.129 (0) Table eyeasso_revslider_slides: Total expected rows (approximate): 7
+0068.137 (0) Table eyeasso_revslider_slides: Total rows added: 7 in 0.01 seconds
+0068.140 (0) Table eyeasso_revslider_slides: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_slides.table.gz - 7.2 KB)
+0068.151 (0) Table eyeasso_revslider_static_slides: Total expected rows (approximate): 1
+0068.155 (0) Table eyeasso_revslider_static_slides: Total rows added: 1 in 0.00 seconds
+0068.158 (0) Table eyeasso_revslider_static_slides: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_static_slides.table.gz - 0.4 KB)
+0068.170 (0) Table eyeasso_rg_form: Total expected rows (approximate): 4
+0068.174 (0) Table eyeasso_rg_form: Total rows added: 4 in 0.00 seconds
+0068.178 (0) Table eyeasso_rg_form: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_form.table.gz - 0.5 KB)
+0068.190 (0) Table eyeasso_rg_form_meta: Total expected rows (approximate): 4
+0068.197 (0) Table eyeasso_rg_form_meta: Total rows added: 4 in 0.00 seconds
+0068.201 (0) Table eyeasso_rg_form_meta: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_form_meta.table.gz - 2.8 KB)
+0068.212 (0) Table eyeasso_rg_form_view: Total expected rows (approximate): 91
+0068.223 (0) Table eyeasso_rg_form_view: Total rows added: 91 in 0.01 seconds
+0068.227 (0) Table eyeasso_rg_form_view: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_form_view.table.gz - 2 KB)
+0068.240 (0) Table eyeasso_rg_incomplete_submissions: Total expected rows (approximate): 0
+0068.244 (0) Table eyeasso_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0068.248 (0) Table eyeasso_rg_incomplete_submissions: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_incomplete_submissions.table.gz - 0.4 KB)
+0068.263 (0) Table eyeasso_rg_lead: Total expected rows (approximate): 18
+0068.276 (0) Table eyeasso_rg_lead: Total rows added: 18 in 0.01 seconds
+0068.280 (0) Table eyeasso_rg_lead: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead.table.gz - 1.5 KB)
+0068.294 (0) Table eyeasso_rg_lead_detail: Total expected rows (approximate): 216
+0068.317 (0) Table eyeasso_rg_lead_detail: Total rows added: 216 in 0.02 seconds
+0068.322 (0) Table eyeasso_rg_lead_detail: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_detail.table.gz - 3.5 KB)
+0068.336 (0) Table eyeasso_rg_lead_detail_long: Total expected rows (approximate): 0
+0068.339 (0) Table eyeasso_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0068.342 (0) Table eyeasso_rg_lead_detail_long: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_detail_long.table.gz - 0.3 KB)
+0068.352 (0) Table eyeasso_rg_lead_meta: Total expected rows (approximate): 0
+0068.356 (0) Table eyeasso_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0068.359 (0) Table eyeasso_rg_lead_meta: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_meta.table.gz - 0.4 KB)
+0068.370 (0) Table eyeasso_rg_lead_notes: Total expected rows (approximate): 0
+0068.374 (0) Table eyeasso_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0068.377 (0) Table eyeasso_rg_lead_notes: finishing file (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_notes.table.gz - 0.4 KB)
+0068.388 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_options.table.gz (1/41): adding to final database dump
+0068.479 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_users.table.gz (2/41): adding to final database dump
+0068.482 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_usermeta.table.gz (3/41): adding to final database dump
+0068.488 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_commentmeta.table.gz (4/41): adding to final database dump
+0068.494 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_comments.table.gz (5/41): adding to final database dump
+0068.499 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_links.table.gz (6/41): adding to final database dump
+0068.502 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_postmeta.table.gz (7/41): adding to final database dump
+0068.994 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_posts.table.gz (8/41): adding to final database dump
+0069.054 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_term_relationships.table.gz (9/41): adding to final database dump
+0069.058 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_term_taxonomy.table.gz (10/41): adding to final database dump
+0069.062 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_terms.table.gz (11/41): adding to final database dump
+0069.067 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_cf7dbplugin_st.table.gz (12/41): adding to final database dump
+0069.070 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_cf7dbplugin_submits.table.gz (13/41): adding to final database dump
+0069.314 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_cn_social_icon.table.gz (14/41): adding to final database dump
+0069.316 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_duplicator_packages.table.gz (15/41): adding to final database dump
+0069.320 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_funbox.table.gz (16/41): adding to final database dump
+0069.323 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_itsec_lockouts.table.gz (17/41): adding to final database dump
+0069.325 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_itsec_log.table.gz (18/41): adding to final database dump
+0069.328 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_itsec_temp.table.gz (19/41): adding to final database dump
+0069.331 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_layerslider.table.gz (20/41): adding to final database dump
+0069.333 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_404.table.gz (21/41): adding to final database dump
+0071.359 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_groups.table.gz (22/41): adding to final database dump
+0071.361 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_items.table.gz (23/41): adding to final database dump
+0071.365 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_logs.table.gz (24/41): adding to final database dump
+0072.051 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_redirection_modules.table.gz (25/41): adding to final database dump
+0072.055 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_css.table.gz (26/41): adding to final database dump
+0072.063 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_layer_animations.table.gz (27/41): adding to final database dump
+0072.065 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_navigations.table.gz (28/41): adding to final database dump
+0072.068 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_settings.table.gz (29/41): adding to final database dump
+0072.070 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_sliders.table.gz (30/41): adding to final database dump
+0072.074 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_slides.table.gz (31/41): adding to final database dump
+0072.080 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_revslider_static_slides.table.gz (32/41): adding to final database dump
+0072.083 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_form.table.gz (33/41): adding to final database dump
+0072.086 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_form_meta.table.gz (34/41): adding to final database dump
+0072.089 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_form_view.table.gz (35/41): adding to final database dump
+0072.093 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_incomplete_submissions.table.gz (36/41): adding to final database dump
+0072.095 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead.table.gz (37/41): adding to final database dump
+0072.098 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_detail.table.gz (38/41): adding to final database dump
+0072.106 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_detail_long.table.gz (39/41): adding to final database dump
+0072.110 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_meta.table.gz (40/41): adding to final database dump
+0072.113 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db-table-eyeasso_rg_lead_notes.table.gz (41/41): adding to final database dump
+0072.115 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz: finished writing out complete database file (7096 KB)
+0072.241 (0) Total database tables backed up: 41 (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz, size: 7287012, sha256)
+0072.259 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0072.262 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0072.265 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0072.268 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip: others: This file has not yet been successfully uploaded: will queue
+0072.270 (0) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz: db: This file has not yet been successfully uploaded: will queue
+0072.272 (0) Saving backup history. Total backup size: 69.1 MB
+0072.278 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0072.286 (0) Cloud backup selection (1/1): dropbox (last)
+0072.288 (0) Beginning dispatch of backup to remote (dropbox)
+0072.290 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0072.528 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0075.457 (0) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+0075.459 (0) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip) size is 42919.172851562 b (overall file size; .43949233 b), whereas available quota is only -22614489 b
+0075.461 (0) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip
+0090.713 (0) Dropbox chunked upload: 2.4 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 1048576, 1024 KB)
+0104.800 (0) Dropbox chunked upload: 4.8 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 2097152, 1024 KB)
+0117.368 (0) Dropbox chunked upload: 7.2 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 3145728, 1024 KB)
+0135.369 (0) Dropbox chunked upload: 9.5 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 4194304, 1024 KB)
+0157.338 (0) Dropbox chunked upload: 11.9 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 5242880, 1024 KB)
+0186.729 (0) Dropbox chunked upload: 14.3 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 6291456, 1024 KB)
+0205.416 (0) Dropbox chunked upload: 16.7 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 7340032, 1024 KB)
+0220.064 (0) Dropbox chunked upload: 19.1 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 8388608, 1024 KB)
+0235.958 (0) Dropbox chunked upload: 21.5 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 9437184, 1024 KB)
+0256.358 (0) Dropbox chunked upload: 23.9 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 10485760, 1024 KB)
+0282.699 (0) Dropbox chunked upload: 26.2 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 11534336, 1024 KB)
+0327.265 (0) The time we have been running (327.2) is approaching the resumption interval (352) - increasing resumption interval to 358
+0327.283 (0) The scheduled resumption is within 45 seconds - will reschedule
+0327.289 (0) Rescheduling resumption 1: moving to 403 seconds from now (1515490542)
+0327.298 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 358 + 45 = 403
+0327.301 (0) Dropbox chunked upload: 28.6 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 12582912, 1024 KB)
+0340.467 (0) Dropbox chunked upload: 31 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 13631488, 1024 KB)
+0356.658 (0) Dropbox chunked upload: 33.4 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 14680064, 1024 KB)
+0372.012 (0) Dropbox chunked upload: 35.8 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 15728640, 1024 KB)
+0392.917 (0) The time we have been running (392.9) is approaching the resumption interval (403) - increasing resumption interval to 423
+0392.934 (0) Dropbox chunked upload: 38.2 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 16777216, 1024 KB)
+0409.008 (0) The time we have been running (409) is approaching the resumption interval (423) - increasing resumption interval to 439
+0409.017 (0) Dropbox chunked upload: 40.6 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 17825792, 1024 KB)
+0443.693 (0) The time we have been running (443.7) is approaching the resumption interval (439) - increasing resumption interval to 474
+0443.709 (0) Dropbox chunked upload: 42.9 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 18874368, 1024 KB)
+0454.923 (0) The time we have been running (454.9) is approaching the resumption interval (474) - increasing resumption interval to 485
+0454.927 (0) Dropbox chunked upload: 45.3 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 19922944, 1024 KB)
+0465.072 (0) The time we have been running (465.1) is approaching the resumption interval (485) - increasing resumption interval to 496
+0465.080 (0) Dropbox chunked upload: 47.7 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 20971520, 1024 KB)
+0473.735 (0) The time we have been running (473.7) is approaching the resumption interval (496) - increasing resumption interval to 504
+0473.740 (0) Dropbox chunked upload: 50.1 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 22020096, 1024 KB)
+0488.302 (0) The time we have been running (488.3) is approaching the resumption interval (504) - increasing resumption interval to 519
+0488.306 (0) Dropbox chunked upload: 52.5 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 23068672, 1024 KB)
+0500.525 (0) The time we have been running (500.5) is approaching the resumption interval (519) - increasing resumption interval to 531
+0500.532 (0) Dropbox chunked upload: 54.9 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 24117248, 1024 KB)
+0510.022 (0) The time we have been running (510) is approaching the resumption interval (531) - increasing resumption interval to 541
+0510.027 (0) Dropbox chunked upload: 57.3 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 25165824, 1024 KB)
+0522.019 (0) The time we have been running (522) is approaching the resumption interval (541) - increasing resumption interval to 552
+0522.041 (0) Dropbox chunked upload: 59.6 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 26214400, 1024 KB)
+0540.979 (0) The time we have been running (541) is approaching the resumption interval (552) - increasing resumption interval to 571
+0540.992 (0) Dropbox chunked upload: 62 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 27262976, 1024 KB)
+0572.715 (0) The time we have been running (572.7) is approaching the resumption interval (571) - increasing resumption interval to 603
+0572.722 (0) Dropbox chunked upload: 64.4 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 28311552, 1024 KB)
+0587.651 (0) The time we have been running (587.6) is approaching the resumption interval (603) - increasing resumption interval to 618
+0587.657 (0) Dropbox chunked upload: 66.8 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 29360128, 1024 KB)
+0597.377 (0) The time we have been running (597.4) is approaching the resumption interval (618) - increasing resumption interval to 628
+0597.383 (0) Dropbox chunked upload: 69.2 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 30408704, 1024 KB)
+0611.914 (0) The time we have been running (611.9) is approaching the resumption interval (628) - increasing resumption interval to 642
+0611.925 (0) Dropbox chunked upload: 71.6 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 31457280, 1024 KB)
+0622.968 (0) The time we have been running (623) is approaching the resumption interval (642) - increasing resumption interval to 653
+0622.972 (0) Dropbox chunked upload: 74 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 32505856, 1024 KB)
+0634.432 (0) The time we have been running (634.4) is approaching the resumption interval (653) - increasing resumption interval to 665
+0634.439 (0) Dropbox chunked upload: 76.3 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 33554432, 1024 KB)
+0654.626 (0) The time we have been running (654.6) is approaching the resumption interval (665) - increasing resumption interval to 685
+0654.635 (0) Dropbox chunked upload: 78.7 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 34603008, 1024 KB)
+0680.372 (0) The time we have been running (680.4) is approaching the resumption interval (685) - increasing resumption interval to 711
+0680.376 (0) Dropbox chunked upload: 81.1 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 35651584, 1024 KB)
+0693.621 (0) The time we have been running (693.6) is approaching the resumption interval (711) - increasing resumption interval to 724
+0693.638 (0) The scheduled resumption is within 45 seconds - will reschedule
+0693.645 (0) Rescheduling resumption 1: moving to 600 seconds from now (1515491105)
+0693.654 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 724 + 45 = 769
+0693.657 (0) Dropbox chunked upload: 83.5 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 36700160, 1024 KB)
+0714.570 (0) Dropbox chunked upload: 85.9 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 37748736, 1024 KB)
+0727.651 (0) Dropbox chunked upload: 88.3 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 38797312, 1024 KB)
+0739.380 (0) The time we have been running (739.4) is approaching the resumption interval (769) - increasing resumption interval to 770
+0739.387 (0) Dropbox chunked upload: 90.7 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 39845888, 1024 KB)
+0751.354 (0) The time we have been running (751.3) is approaching the resumption interval (770) - increasing resumption interval to 782
+0751.359 (0) Dropbox chunked upload: 93 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 40894464, 1024 KB)
+0763.390 (0) The time we have been running (763.4) is approaching the resumption interval (782) - increasing resumption interval to 794
+0763.399 (0) Dropbox chunked upload: 95.4 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 41943040, 1024 KB)
+0772.550 (0) The time we have been running (772.5) is approaching the resumption interval (794) - increasing resumption interval to 803
+0772.558 (0) Dropbox chunked upload: 97.8 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 42991616, 1024 KB)
+0781.640 (0) The time we have been running (781.6) is approaching the resumption interval (803) - increasing resumption interval to 812
+0781.646 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAQRiuOpPtQZsgA, 43949233, 1024 KB)
+0784.995 (0) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0785.001 (0) Dropbox error: path
+0785.007 (0) An error condition has occurred for the first time during this job
+0785.892 (0) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+0785.899 (0) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip) size is 13754.95703125 b (overall file size; .14085076 b), whereas available quota is only -22614489 b
+0785.906 (0) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip
+0795.576 (0) The time we have been running (795.6) is approaching the resumption interval (812) - increasing resumption interval to 826
+0795.581 (0) Dropbox chunked upload: 7.4 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 1048576, 1024 KB)
+0806.764 (0) The time we have been running (806.7) is approaching the resumption interval (826) - increasing resumption interval to 837
+0806.775 (0) Dropbox chunked upload: 14.9 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 2097152, 1024 KB)
+0821.203 (0) The time we have been running (821.2) is approaching the resumption interval (837) - increasing resumption interval to 852
+0821.211 (0) Dropbox chunked upload: 22.3 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 3145728, 1024 KB)
+0835.121 (0) The time we have been running (835.1) is approaching the resumption interval (852) - increasing resumption interval to 866
+0835.127 (0) Dropbox chunked upload: 29.8 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 4194304, 1024 KB)
+0847.883 (0) The time we have been running (847.9) is approaching the resumption interval (866) - increasing resumption interval to 878
+0847.891 (0) Dropbox chunked upload: 37.2 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 5242880, 1024 KB)
+0864.462 (0) The time we have been running (864.5) is approaching the resumption interval (878) - increasing resumption interval to 895
+0864.467 (0) Dropbox chunked upload: 44.7 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 6291456, 1024 KB)
+0874.739 (0) The time we have been running (874.7) is approaching the resumption interval (895) - increasing resumption interval to 905
+0874.746 (0) Dropbox chunked upload: 52.1 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 7340032, 1024 KB)
+0884.133 (0) The time we have been running (884.1) is approaching the resumption interval (905) - increasing resumption interval to 915
+0884.144 (0) Dropbox chunked upload: 59.6 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 8388608, 1024 KB)
+0891.710 (0) The time we have been running (891.7) is approaching the resumption interval (915) - increasing resumption interval to 922
+0891.718 (0) Dropbox chunked upload: 67 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 9437184, 1024 KB)
+0904.194 (0) The time we have been running (904.2) is approaching the resumption interval (922) - increasing resumption interval to 935
+0904.201 (0) Dropbox chunked upload: 74.4 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 10485760, 1024 KB)
+0914.608 (0) The time we have been running (914.6) is approaching the resumption interval (935) - increasing resumption interval to 945
+0914.614 (0) Dropbox chunked upload: 81.9 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 11534336, 1024 KB)
+0924.985 (0) The time we have been running (925) is approaching the resumption interval (945) - increasing resumption interval to 955
+0924.990 (0) Dropbox chunked upload: 89.3 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 12582912, 1024 KB)
+0934.816 (0) The time we have been running (934.8) is approaching the resumption interval (955) - increasing resumption interval to 965
+0934.821 (0) Dropbox chunked upload: 96.8 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 13631488, 1024 KB)
+1335.344 (1) Opened log file at time: Tue, 09 Jan 2018 09:45:47 +0000 on http://localhost/myeyeassociates
+1335.347 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 3.9.2 PHP: 5.6.25 (apache2handler, Windows NT KEYUR-LAP 10.0 build 16299 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 50M | 51.3M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1335.350 (1) Free space on disk containing Updraft's temporary directory: 95336.3 MB
+1335.354 (1) Backup run: resumption=1, nonce=6368c6b1dc04, begun at=1515489811 (1336s ago), job type=backup, previous check-in=934.8s
+1335.358 (1) Scheduling a resumption (2) after 965 seconds (1515492112) in case this run gets aborted
+1335.400 (1) Checking if we have a zip executable available
+1335.402 (1) Creation of backups of directories: already finished
+1335.406 (1) Saving backup status to database (elements: 8)
+1335.413 (1) Database dump (WordPress DB): Creation was completed already
+1335.425 (1) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1335.428 (1) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1335.430 (1) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1335.433 (1) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip: others: This file has not yet been successfully uploaded: will queue
+1335.435 (1) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz: db: This file has not yet been successfully uploaded: will queue
+1335.437 (1) Saving backup history. Total backup size: 69.1 MB
+1335.442 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+1335.446 (1) Cloud backup selection (1/1): dropbox (last)
+1335.484 (1) Beginning dispatch of backup to remote (dropbox)
+1335.486 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1335.502 (1) Dropbox: access gained; setting chunk size to: 1024 KB
+1337.424 (1) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+1337.432 (1) This is a resumption: 43949233 bytes had already been uploaded
+1337.438 (1) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip
+1338.471 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1338.476 (1) Dropbox error: path
+1338.484 (1) An error condition has occurred for the first time during this job
+1339.233 (1) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+1339.239 (1) This is a resumption: 13631488 bytes had already been uploaded
+1339.244 (1) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip) size is -13617733.042969 b (overall file size; .14085076 b), whereas available quota is only -22614489 b
+1339.250 (1) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip
+1353.510 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAQWUDU5TeIic-g, 14085076, 1024 KB)
+1357.167 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1357.172 (1) Dropbox error: path
+1357.960 (1) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+1357.967 (1) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip) size is 0.2265625 b (overall file size; .232 b), whereas available quota is only -22614489 b
+1357.972 (1) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip
+1359.332 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAQa9Rz5RPTpYeA, 232, 1024 KB)
+1361.934 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1361.939 (1) Dropbox error: path
+1362.671 (1) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+1362.677 (1) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip) size is 7003.46484375 b (overall file size; .7171548 b), whereas available quota is only -22614489 b
+1362.683 (1) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip
+1379.725 (1) Dropbox chunked upload: 14.6 % uploaded (AAAAAAAAAQeVOQl-4ZpMaA, 1048576, 1024 KB)
+1408.342 (1) Dropbox chunked upload: 29.2 % uploaded (AAAAAAAAAQeVOQl-4ZpMaA, 2097152, 1024 KB)
+1436.581 (1) Dropbox chunked upload: 43.9 % uploaded (AAAAAAAAAQeVOQl-4ZpMaA, 3145728, 1024 KB)
+1455.339 (1) Dropbox chunked upload: 58.5 % uploaded (AAAAAAAAAQeVOQl-4ZpMaA, 4194304, 1024 KB)
+1466.482 (1) Dropbox chunked upload: 73.1 % uploaded (AAAAAAAAAQeVOQl-4ZpMaA, 5242880, 1024 KB)
+1476.147 (1) Dropbox chunked upload: 87.7 % uploaded (AAAAAAAAAQeVOQl-4ZpMaA, 6291456, 1024 KB)
+1491.325 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAQeVOQl-4ZpMaA, 7171548, 1024 KB)
+1495.219 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1495.224 (1) Dropbox error: path
+1500.456 (1) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+1500.465 (1) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz) size is 7116.22265625 b (overall file size; .7287012 b), whereas available quota is only -22614489 b
+1500.471 (1) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz
+1516.790 (1) Dropbox chunked upload: 14.4 % uploaded (AAAAAAAAAQi98bkdSjT0oQ, 1048576, 1024 KB)
+1534.011 (1) Dropbox chunked upload: 28.8 % uploaded (AAAAAAAAAQi98bkdSjT0oQ, 2097152, 1024 KB)
+1562.235 (1) Dropbox chunked upload: 43.2 % uploaded (AAAAAAAAAQi98bkdSjT0oQ, 3145728, 1024 KB)
+1577.066 (1) Dropbox chunked upload: 57.6 % uploaded (AAAAAAAAAQi98bkdSjT0oQ, 4194304, 1024 KB)
+1603.010 (1) Dropbox chunked upload: 71.9 % uploaded (AAAAAAAAAQi98bkdSjT0oQ, 5242880, 1024 KB)
+1622.769 (1) Dropbox chunked upload: 86.3 % uploaded (AAAAAAAAAQi98bkdSjT0oQ, 6291456, 1024 KB)
+1653.783 (1) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAQi98bkdSjT0oQ, 7287012, 1024 KB)
+1663.596 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1663.602 (1) Dropbox error: path
+1663.617 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1663.633 (1) Number of backup sets in history: 3; groups (db): 1
+1663.638 (1) Examining (for databases) backup set with group_id=0, nonce=6368c6b1dc04, datestamp=1515489811 (Jan 09 2018 09:23:31)
+1663.641 (1) This backup set is the backup set just made, so will not be deleted.
+1663.644 (1) Examining (for databases) backup set with group_id=0, nonce=f0d1f63037fb, datestamp=1514837846 (Jan 01 2018 20:17:26)
+1663.647 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1663.650 (1) Examining (for databases) backup set with group_id=0, nonce=ddb3ecaa76ec, datestamp=1514233050 (Dec 25 2017 20:17:30)
+1663.653 (1) 1514233050: db: this set includes a database (backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-db.gz); db count is now 2
+1663.656 (1) 1514233050: db: over retain limit (2); will delete this database
+1663.659 (1) Delete file: backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-db.gz, service=dropbox
+1663.661 (1) Dropbox: request deletion: backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-db.gz
+1668.192 (1) Dropbox error: path_lookup (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1668.204 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+1668.209 (1) Number of backup sets in history: 3; groups (files): 1
+1668.216 (1) Examining (for files) backup set with nonce=6368c6b1dc04, datestamp=1515489811 (Jan 09 2018 09:23:31)
+1668.220 (1) This backup set is the backup set just made, so will not be deleted.
+1668.228 (1) This backup set is the backup set just made, so will not be deleted.
+1668.229 (1) This backup set is the backup set just made, so will not be deleted.
+1668.230 (1) This backup set is the backup set just made, so will not be deleted.
+1668.231 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1668.233 (1) Examining (for files) backup set with nonce=f0d1f63037fb, datestamp=1514837846 (Jan 01 2018 20:17:26)
+1668.236 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1668.239 (1) Examining (for files) backup set with nonce=ddb3ecaa76ec, datestamp=1514233050 (Dec 25 2017 20:17:30)
+1668.242 (1) plugins: over retain limit (2); will delete this file entity
+1668.245 (1) themes: over retain limit (2); will delete this file entity
+1668.248 (1) uploads: over retain limit (2); will delete this file entity
+1668.251 (1) others: over retain limit (2); will delete this file entity
+1668.254 (1) Delete file: backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-plugins.zip, service=dropbox
+1668.257 (1) Delete file: backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-themes.zip, service=dropbox
+1668.260 (1) Delete file: backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-uploads.zip, service=dropbox
+1668.262 (1) Delete file: backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-others.zip, service=dropbox
+1668.264 (1) Dropbox: request deletion: backup_2017-12-25-2017_Eye_Associates_ddb3ecaa76ec-plugins.zip
+1671.863 (1) Dropbox error: path_lookup (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1671.867 (1) This backup set is now empty; will remove from history
+1671.869 (1) Corresponding log file (log.ddb3ecaa76ec.txt) not found - must have already been deleted
+1671.871 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1671.878 (1) Resume backup (6368c6b1dc04, 1): finish run
+1671.882 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1671.886 (1) The backup has not finished; a resumption is scheduled
+2334.104 (2) Opened log file at time: Tue, 09 Jan 2018 10:02:25 +0000 on http://localhost/myeyeassociates
+2334.107 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 3.9.2 PHP: 5.6.25 (apache2handler, Windows NT KEYUR-LAP 10.0 build 16299 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 50M | 51M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2334.111 (2) Free space on disk containing Updraft's temporary directory: 95335.8 MB
+2334.119 (2) Backup run: resumption=2, nonce=6368c6b1dc04, begun at=1515489811 (2334s ago), job type=backup, previous check-in=336.5s
+2334.123 (2) Scheduling a resumption (3) after 965 seconds (1515493110) in case this run gets aborted
+2334.161 (2) Checking if we have a zip executable available
+2334.165 (2) Creation of backups of directories: already finished
+2334.168 (2) Saving backup status to database (elements: 8)
+2334.175 (2) Database dump (WordPress DB): Creation was completed already
+2334.190 (2) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2334.192 (2) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2334.196 (2) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2334.201 (2) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip: others: This file has not yet been successfully uploaded: will queue
+2334.203 (2) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz: db: This file has not yet been successfully uploaded: will queue
+2334.205 (2) Saving backup history. Total backup size: 69.1 MB
+2334.211 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+2334.218 (2) Cloud backup selection (1/1): dropbox (last)
+2334.241 (2) Beginning dispatch of backup to remote (dropbox)
+2334.244 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+2334.272 (2) Dropbox: access gained; setting chunk size to: 1024 KB
+2335.261 (2) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+2335.264 (2) This is a resumption: 43949233 bytes had already been uploaded
+2335.267 (2) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip
+2338.555 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2338.561 (2) Dropbox error: path
+2338.564 (2) An error condition has occurred for the first time during this job
+2339.258 (2) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+2339.267 (2) This is a resumption: 14085076 bytes had already been uploaded
+2339.272 (2) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip) size is -14071321.042969 b (overall file size; .14085076 b), whereas available quota is only -22614489 b
+2339.277 (2) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip
+2340.265 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2340.270 (2) Dropbox error: path
+2341.417 (2) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+2341.422 (2) This is a resumption: 232 bytes had already been uploaded
+2341.427 (2) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip) size is -231.7734375 b (overall file size; .232 b), whereas available quota is only -22614489 b
+2341.433 (2) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip
+2342.400 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2342.405 (2) Dropbox error: path
+2343.114 (2) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+2343.120 (2) This is a resumption: 7171548 bytes had already been uploaded
+2343.125 (2) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip) size is -7164544.5351562 b (overall file size; .7171548 b), whereas available quota is only -22614489 b
+2343.131 (2) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip
+2344.225 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2344.230 (2) Dropbox error: path
+2344.938 (2) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+2344.942 (2) This is a resumption: 7287012 bytes had already been uploaded
+2344.946 (2) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz) size is -7279895.7773438 b (overall file size; .7287012 b), whereas available quota is only -22614489 b
+2344.950 (2) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz
+2345.918 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2345.922 (2) Dropbox error: path
+2345.934 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2345.943 (2) Number of backup sets in history: 2; groups (db): 1
+2345.948 (2) Examining (for databases) backup set with group_id=0, nonce=6368c6b1dc04, datestamp=1515489811 (Jan 09 2018 09:23:31)
+2345.953 (2) This backup set is the backup set just made, so will not be deleted.
+2345.957 (2) Examining (for databases) backup set with group_id=0, nonce=f0d1f63037fb, datestamp=1514837846 (Jan 01 2018 20:17:26)
+2345.962 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2345.967 (2) Number of backup sets in history: 2; groups (files): 1
+2345.969 (2) Examining (for files) backup set with nonce=6368c6b1dc04, datestamp=1515489811 (Jan 09 2018 09:23:31)
+2345.973 (2) This backup set is the backup set just made, so will not be deleted.
+2345.976 (2) This backup set is the backup set just made, so will not be deleted.
+2345.977 (2) This backup set is the backup set just made, so will not be deleted.
+2345.977 (2) This backup set is the backup set just made, so will not be deleted.
+2345.979 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2345.983 (2) Examining (for files) backup set with nonce=f0d1f63037fb, datestamp=1514837846 (Jan 01 2018 20:17:26)
+2345.987 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2345.989 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2345.996 (2) Resume backup (6368c6b1dc04, 2): finish run
+2345.999 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2346.003 (2) The backup has not finished; a resumption is scheduled
+3299.354 (3) Opened log file at time: Tue, 09 Jan 2018 10:18:31 +0000 on http://localhost/myeyeassociates
+3299.356 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 3.9.2 PHP: 5.6.25 (apache2handler, Windows NT KEYUR-LAP 10.0 build 16299 (Windows 10) AMD64) MySQL: 5.7.14 WPLANG: en_US Server: Apache/2.4.23 (Win64) PHP/5.6.25 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 50M | 51M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3299.358 (3) Free space on disk containing Updraft's temporary directory: 95335.7 MB
+3299.362 (3) Backup run: resumption=3, nonce=6368c6b1dc04, begun at=1515489811 (3300s ago), job type=backup
+3299.366 (3) Scheduling a resumption (4) after 965 seconds (1515494076) in case this run gets aborted
+3299.378 (3) Checking if we have a zip executable available
+3299.380 (3) Creation of backups of directories: already finished
+3299.384 (3) Saving backup status to database (elements: 8)
+3299.389 (3) Database dump (WordPress DB): Creation was completed already
+3299.398 (3) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3299.400 (3) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3299.403 (3) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3299.405 (3) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip: others: This file has not yet been successfully uploaded: will queue
+3299.406 (3) backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz: db: This file has not yet been successfully uploaded: will queue
+3299.408 (3) Saving backup history. Total backup size: 69.1 MB
+3299.413 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+3299.417 (3) Cloud backup selection (1/1): dropbox (last)
+3299.422 (3) Beginning dispatch of backup to remote (dropbox)
+3299.424 (3) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+3299.431 (3) Dropbox: access gained; setting chunk size to: 1024 KB
+3302.858 (3) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+3302.864 (3) This is a resumption: 43949233 bytes had already been uploaded
+3302.870 (3) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-plugins.zip
+3305.383 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+3305.388 (3) Dropbox error: path
+3305.393 (3) An error condition has occurred for the first time during this job
+3306.106 (3) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+3306.108 (3) This is a resumption: 14085076 bytes had already been uploaded
+3306.111 (3) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip) size is -14071321.042969 b (overall file size; .14085076 b), whereas available quota is only -22614489 b
+3306.113 (3) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-themes.zip
+3307.283 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+3307.289 (3) Dropbox error: path
+3309.851 (3) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+3309.858 (3) This is a resumption: 232 bytes had already been uploaded
+3309.863 (3) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip) size is -231.7734375 b (overall file size; .232 b), whereas available quota is only -22614489 b
+3309.872 (3) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-uploads.zip
+3311.423 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+3311.425 (3) Dropbox error: path
+3312.544 (3) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+3312.549 (3) This is a resumption: 7171548 bytes had already been uploaded
+3312.556 (3) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip) size is -7164544.5351562 b (overall file size; .7171548 b), whereas available quota is only -22614489 b
+3312.561 (3) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-others.zip
+3313.989 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+3313.992 (3) Dropbox error: path
+3314.671 (3) Dropbox quota usage: used=2069.6 MB, total=2048 MB, available=-21.6 MB
+3314.675 (3) This is a resumption: 7287012 bytes had already been uploaded
+3314.680 (3) File upload expected to fail: file data remaining to upload (backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz) size is -7279895.7773438 b (overall file size; .7287012 b), whereas available quota is only -22614489 b
+3314.685 (3) Dropbox: Attempt to upload: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz to: backup_2018-01-09-0923_Eye_Associates_6368c6b1dc04-db.gz
+3315.631 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 228, file: D:\wamp64\www\myeyeassociates\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+3315.633 (3) Dropbox error: path
+3315.638 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3315.642 (3) Number of backup sets in history: 2; groups (db): 1
+3315.644 (3) Examining (for databases) backup set with group_id=0, nonce=6368c6b1dc04, datestamp=1515489811 (Jan 09 2018 09:23:31)
+3315.645 (3) This backup set is the backup set just made, so will not be deleted.
+3315.647 (3) Examining (for databases) backup set with group_id=0, nonce=f0d1f63037fb, datestamp=1514837846 (Jan 01 2018 20:17:26)
+3315.649 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3315.650 (3) Number of backup sets in history: 2; groups (files): 1
+3315.652 (3) Examining (for files) backup set with nonce=6368c6b1dc04, datestamp=1515489811 (Jan 09 2018 09:23:31)
+3315.654 (3) This backup set is the backup set just made, so will not be deleted.
+3315.655 (3) This backup set is the backup set just made, so will not be deleted.
+3315.656 (3) This backup set is the backup set just made, so will not be deleted.
+3315.656 (3) This backup set is the backup set just made, so will not be deleted.
+3315.657 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3315.658 (3) Examining (for files) backup set with nonce=f0d1f63037fb, datestamp=1514837846 (Jan 01 2018 20:17:26)
+3315.660 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3315.661 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3315.666 (3) Resume backup (6368c6b1dc04, 3): finish run
+3315.668 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3315.673 (3) The backup has not finished; a resumption is scheduled

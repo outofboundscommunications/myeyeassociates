@@ -635,6 +635,7 @@ function home_doctors_func(){
 		'post_type'=> 'doctor',
 		'orderby'  => 'date',
 		'order'    => 'ASC',
+		'posts_per_page'    => -1,
 	));
 	if ( have_posts() ){
 		?>
