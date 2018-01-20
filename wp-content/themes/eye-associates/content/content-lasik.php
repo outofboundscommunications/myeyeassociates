@@ -66,7 +66,7 @@
   <div class="row">
      <div class="col-sm-12">
          <div class="seminar-btn">
-           <a class="ea-btn-large" href="<?php echo site_url(); ?>/lesik-seminar/"><?php the_field('seminar_button');?></a>
+           <a class="ea-btn-large" href="<?php echo site_url(); ?>/lasik-seminar/"><?php the_field('seminar_button');?></a>
          </div>
      </div>
   </div>

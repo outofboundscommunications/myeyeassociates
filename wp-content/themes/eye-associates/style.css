@@ -2306,7 +2306,7 @@ b, strong {
 
 .entry-content ul.green_dot li:before {
 
-	content: "°";
+	content: "Â°";
 
 	font-size: 30px;
 
@@ -9412,11 +9412,15 @@ footer.site-footer {
 
 	min-height: inherit;
 
-	font-size: 46px;
+	font-size: 35px;
 
 	line-height: 50px;
 
 }
+
+
+.single-post .entry-content > ol { margin-left: 0; }
+.single-post .entry-content > ol ul li { line-height: 26px;font-size: 18px; }
 
 .single-post .meta-wrapper {
 
@@ -11097,7 +11101,7 @@ a.slicknav_btn.slicknav_collapsed, .search {
 	padding-bottom: 130px;
 
 }
-
+.single-post .entry-content ul li { font-size: 18px;line-height: 26px;margin-bottom: 15px; }
 @media (max-width:992px) {
 
 	.top-tools {
@@ -11122,9 +11126,20 @@ a.slicknav_btn.slicknav_collapsed, .search {
 
 	}
 
+.single-post .post .entry-header h1.entry-title { font-size: 23px;line-height: 32px;}
+.single-post .post .entry-content-wrapper { margin-top: 12px; }
+
+
 }
 
 @media (max-width:767px) {
+
+.single-post .post .entry-content ul li {
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
 
 	.top-tools {
 
@@ -11353,15 +11368,3 @@ dailies-brand {
 .entry-content .inner-locations-wrapper .home-lcoations p { margin-bottom:4px ;line-height: 28px; }
 .entry-content .inner-locations-wrapper .home-lcoations .pic-caption .btn-detail { padding: 7px 42px; }
 .entry-content .inner-locations-wrapper .home-lcoations .loc-title {font-size: 33px;line-height: 36px;}
-
-
-
-
-
-
-
-
-
-
-
-
