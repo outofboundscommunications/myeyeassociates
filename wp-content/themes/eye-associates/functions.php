@@ -783,10 +783,10 @@ function my_costom_post_type() {
  add_action( 'init', 'my_costom_post_type' );
 /* Gravityform drop down */
 // Populate Contact form Locations field with dropdown of Location posts
-add_filter( 'gform_pre_render_2', 'populate_posts' );
-add_filter( 'gform_pre_validation_2', 'populate_posts' );
-add_filter( 'gform_pre_submission_filter_2', 'populate_posts' );
-add_filter( 'gform_admin_pre_render_2', 'populate_posts' );
+add_filter( 'gform_pre_render', 'populate_posts' );
+add_filter( 'gform_pre_validation', 'populate_posts' );
+add_filter( 'gform_pre_submission_filter', 'populate_posts' );
+add_filter( 'gform_admin_pre_render', 'populate_posts' );
 function populate_posts( $form ) {
 
     foreach ( $form['fields'] as &$field ) {

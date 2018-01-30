@@ -73,7 +73,7 @@
 </div>
 </div>
 <?php
-}
+    }
 ?>
 
 <div class="eye green-bg">
