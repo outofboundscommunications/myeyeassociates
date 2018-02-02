@@ -30,8 +30,8 @@
         else
         {
         ?>
-            <a class="btn btn-default active" href="#"><?php the_field('seminar');?></a>
-            <a class="btn btn-default" href="#"><?php the_field('appointment');?></a>
+            <a class="btn btn-default active" href="<?php the_field('seminar_url');?>"><?php the_field('seminar');?></a>
+            <a class="btn btn-default" href="<?php the_field('appointment_url');?>"><?php the_field('appointment');?></a>
         <?php 
         }
         ?>
