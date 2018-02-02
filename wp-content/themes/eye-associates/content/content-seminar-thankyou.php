@@ -3,21 +3,6 @@
 		<div style="background-color:#F9F7F7;" class="content-container">
 			<div class="container ">
 				<div class="row">
-					<div class="col-sm-4">
-						<div class="row">
-                            <div class="col-sm-6">
-                                <div class="bordercls">
-                                    <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri()."/images/logo1.jpg" ?>" />
-                                </div>                                
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="bordercls">
-                                    <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri()."/images/logo2222.jpg" ?>" />
-                                </div>                                
-                            </div>
-                        </div> 
-					</div>
-					<div class="col-sm-8">
 						<?php
 							if(isset($_GET['eid'])){
 								$eid=$_GET['eid'];
@@ -34,7 +19,6 @@
 								echo $content;
 							}
 						?>
-					</div>
 				</div>
 			</div>
 		</div>
