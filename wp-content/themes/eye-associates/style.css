@@ -2306,7 +2306,7 @@ b, strong {
 
 .entry-content ul.green_dot li:before {
 
-	content: "Â°";
+	content: "°";
 
 	font-size: 30px;
 
