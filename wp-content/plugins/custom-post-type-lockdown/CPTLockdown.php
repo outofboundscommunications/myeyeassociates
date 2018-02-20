@@ -184,9 +184,9 @@ add_action('admin_menu', 'sink_cpt_lockdown_menu');			//options page addition
 											?>
 											
 											<tr>
-												<td class="labelSection"><? echo $metainfo->label ?></td>
-												<td><? echo $CPT ?></td>
-												<td><input type="checkbox" value="yes" <? if(array_key_exists($CPT, $existing_prevent)) echo 'checked' ?> name="cptLockdown_prevent[<? echo $CPT ?>]" />Prevent</td>
+												<td class="labelSection"><?php echo $metainfo->label ?></td>
+												<td><?php echo $CPT ?></td>
+												<td><input type="checkbox" value="yes" <?php if(array_key_exists($CPT, $existing_prevent)) echo 'checked' ?> name="cptLockdown_prevent[<?php echo $CPT ?>]" />Prevent</td>
 												<td>
 													<?php 
 													$args = array(
@@ -199,7 +199,7 @@ add_action('admin_menu', 'sink_cpt_lockdown_menu');			//options page addition
 													?>
 													<br />
 													<strong>Or enter custom URL (will overwrite):</strong><br/>
-													<input value="<? echo $cptLockdown_redirect_custom[$CPT] ?>" title="Enter custom URL"  style="padding: 5px; width: 197px;" name="cptLockdown_redirect_custom[<? echo $CPT ?>]" class=""  />
+													<input value="<?php echo $cptLockdown_redirect_custom[$CPT] ?>" title="Enter custom URL"  style="padding: 5px; width: 197px;" name="cptLockdown_redirect_custom[<?php echo $CPT ?>]" class=""  />
 												</td>												
 												<td>
 													<?php 
@@ -235,7 +235,7 @@ add_action('admin_menu', 'sink_cpt_lockdown_menu');			//options page addition
 				</div>
 			 </div>
 
-	<? 
+	<?php 
 		echo ob_get_clean();	
 	 }  	
 ?>
