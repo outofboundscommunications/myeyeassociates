@@ -22,3 +22,11 @@ wp-content/wp-snapshots/
 
 bak/
 
+wp-content/plugins/custom-post-type-lockdown/CPTLockdown.php
+wp-content/updraft/backup_2018-02-20-1910_Eye_Associates_d7f55cf9d433-others.zip
+wp-content/updraft/backup_2018-02-20-1910_Eye_Associates_d7f55cf9d433-db.gz
+db/eyeasso1_stc (3).sql
+wp-content/updraft/backup_2018-02-20-1910_Eye_Associates_d7f55cf9d433-plugins.zip
+wp-content/updraft/backup_2018-02-20-1910_Eye_Associates_d7f55cf9d433-themes.zip
+wp-content/updraft/backup_2018-02-20-1910_Eye_Associates_d7f55cf9d433-uploads.zip
+wp-content/updraft/log.d7f55cf9d433.txt
