@@ -24,7 +24,7 @@
         if(get_field('seminar_title')=="")
         {
         ?>
-            <a class="btn btn-default active" href="#"><?php the_field('appointment');?></a>
+            <a class="btn btn-default active" href="<?php the_field('appointment_url');?>"><?php the_field('appointment');?></a><?php  ?>
         <?php
         }
         else
