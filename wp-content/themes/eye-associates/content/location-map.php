@@ -103,6 +103,7 @@ jQuery(document).ready(function($) {
 	});
 	$('#mapmodals').on('shown.bs.modal', function () {
 		google.maps.event.trigger(var_map, "resize");
+		$(".modal-backdrop.fade.in").remove();
 		return var_map.setCenter(var_location);
 	});
 });
