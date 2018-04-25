@@ -28,6 +28,7 @@ get_header(); ?>
 			<div id="content" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
+					<!--changes done here-->
 					<?php get_template_part( 'content/content', 'location_single' ); ?>
 				<?php endwhile; // end of the loop. ?>
 
