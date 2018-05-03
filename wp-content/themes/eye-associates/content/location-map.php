@@ -6,7 +6,7 @@ $location_map_url = get_field('location_map_url');
 <?php // echo $location_map_url;?>
 <div class="location_map_wrapper">
 	
-	<a id="mapmodals_lnk" class="location-map-link" href="<?php echo $location_map_url;?>" data-toggle="modal" role="button" target="_blank">View on Map</a>
+	<a id="mapmodals_lnk" class="location-map-link" href="#" data-toggle="modal" role="button" target="_blank">View on Map</a>
 	
 	<!-- Modal -->
 	<div class="modal fade" id="mapmodals">
@@ -103,6 +103,7 @@ jQuery(document).ready(function($) {
 	});
 	$('#mapmodals').on('shown.bs.modal', function () {
 		google.maps.event.trigger(var_map, "resize");
+		$(".modal-backdrop.fade.in").remove();
 		return var_map.setCenter(var_location);
 	});
 });
