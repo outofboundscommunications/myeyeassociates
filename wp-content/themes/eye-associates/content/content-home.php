@@ -30,7 +30,7 @@
 		<?php */ ?>
 		
 		<div class="home-reviews-wrapper">
-			<?php //get_template_part( 'content/content', 'home-reviews' ); ?>
+			<?php get_template_part( 'content/content', 'home-reviews' ); ?>
 		</div>
 		
 		<div class="home-promotions-wrapper">

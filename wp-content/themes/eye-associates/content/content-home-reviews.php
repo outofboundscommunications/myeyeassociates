@@ -1,6 +1,6 @@
 <?php
 // global $gp_api_key, $gpr_error, $gpr_review_limit, $review_filter, $gpr_cache;
-global $gp_api_key, $gpr_error, $gpr_review_limit, $review_filter;
+global $gp_api_key, $gpr_error, $gpr_review_limit, $review_filter,$gpr_cache;
 
 if( function_exists('get_field') ){
 	$home_location_reviews = get_field('home_location_reviews');
@@ -45,12 +45,11 @@ if ( $gpr_cache !== 'None' ) {
 	
 	// Check for an existing copy of our cached/transient data
 	// also check to see if widget options have updated; this will bust the cache
-	if ( $gpr_reviews === false || $serialized_instance !== $widget_options ) {
-		
+	if ( $gpr_reviews === false || $serialized_instance !== $widget_options || empty($gpr_reviews)) {		
 		// It wasn't there, so regenerate the data and save the transient
 		//Get Time to Cache Data
 		$expiration = $gpr_cache;
-
+		
 		//Assign Time to appropriate Math
 		switch ( $expiration ) {
 			case "1 Hour":
@@ -75,7 +74,6 @@ if ( $gpr_cache !== 'None' ) {
 				$expiration = 60 * 60 * 168;
 				break;
 		}
-
 		// Cache data wasn't there, so regenerate the data and save the transient
 		$gpr_reviews = grp_plugin_curl_multi( $google_places_urls );	
 		set_transient( 'gpr_widget_api_' . $transient_unique_id, $gpr_reviews, $expiration );

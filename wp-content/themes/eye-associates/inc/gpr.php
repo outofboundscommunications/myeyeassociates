@@ -11,7 +11,7 @@ $gp_api_key       = ( $acf_gp_api_key ? $acf_gp_api_key : 'AIzaSyATwss6Y77z4ZZZZ
 $gpr_error        = '';
 $gpr_review_limit = 5;
 $review_filter    = ( $acf_review_filter ? $acf_review_filter : 3 );
-$gpr_cache        = '1 Day'; // Available Params '1 Hour', '3 Hours', '6 Hours', '12 Hours', '1 Day', '2 Days', '1 Week'
+$gpr_cache        = '1 Week'; // Available Params '1 Hour', '3 Hours', '6 Hours', '12 Hours', '1 Day', '2 Days', '1 Week'
 
 function grp_plugin_curl( $url ) {
 	
@@ -105,7 +105,7 @@ function grp_plugin_curl_multi( $urls ) {
 	foreach( $urls as $url ){
 	
 		// Send API Call using WP's HTTP API
-		$data = wp_remote_get( $url );
+		$data = wp_remote_get( $url );		
 		if ( is_wp_error( $data ) ) {
 			$gpr_error_message = $data->get_error_message();
 			$gpr_error = "Something went wrong: $gpr_error_message";
