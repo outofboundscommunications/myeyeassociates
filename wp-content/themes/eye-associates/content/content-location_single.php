@@ -396,7 +396,7 @@
 				$google_place_id = get_field('google_place_id');
 			}
 			if( $google_place_id ){
-				get_template_part( 'content/location', 'reviews4' );
+				//get_template_part( 'content/location', 'reviews4' );
 			}
 			/*
 			if( isset($_GET) && $_GET['gpr'] == 'y' ){
